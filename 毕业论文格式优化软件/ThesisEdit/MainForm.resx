@@ -1,0 +1,2920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dotNetBarManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>13, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dockSite4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dockSite4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 553</value>
+  </data>
+  <data name="dockSite4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dockSite4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dockSite4.Name" xml:space="preserve">
+    <value>dockSite4</value>
+  </data>
+  <data name="&gt;&gt;dockSite4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bar1.AccessibleDescription" xml:space="preserve">
+    <value>论文信息 (bar1)</value>
+  </data>
+  <data name="bar1.AccessibleName" xml:space="preserve">
+    <value>论文信息</value>
+  </data>
+  <data name="buttonX2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 31</value>
+  </data>
+  <data name="buttonX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 21</value>
+  </data>
+  <data name="buttonX2.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="buttonX2.Text" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Name" xml:space="preserve">
+    <value>buttonX2</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonX3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 4</value>
+  </data>
+  <data name="buttonX3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 21</value>
+  </data>
+  <data name="buttonX3.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="buttonX3.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.Name" xml:space="preserve">
+    <value>buttonX3</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="comboBox1.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="comboItem1.Text" xml:space="preserve">
+    <value>教授</value>
+  </data>
+  <data name="comboItem2.Text" xml:space="preserve">
+    <value>讲师</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 237</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dateTimePicker3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="dateTimePicker3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 322</value>
+  </data>
+  <data name="dateTimePicker3.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker3.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker3.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker3.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="dateTimePicker3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 21</value>
+  </data>
+  <data name="dateTimePicker3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker3.Name" xml:space="preserve">
+    <value>dateTimePicker3</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker3.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker3.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dateTimePicker2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="dateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 295</value>
+  </data>
+  <data name="dateTimePicker2.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker2.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker2.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker2.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="dateTimePicker2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 21</value>
+  </data>
+  <data name="dateTimePicker2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Name" xml:space="preserve">
+    <value>dateTimePicker2</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dateTimePicker1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 266</value>
+  </data>
+  <data name="dateTimePicker1.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker1.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker1.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="dateTimePicker1.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 21</value>
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
+    <value>dateTimePicker1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelX12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 322</value>
+  </data>
+  <data name="labelX12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX12.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="labelX12.Text" xml:space="preserve">
+    <value>提交日期：</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Name" xml:space="preserve">
+    <value>labelX12</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX12.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelX13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 295</value>
+  </data>
+  <data name="labelX13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX13.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="labelX13.Text" xml:space="preserve">
+    <value>结束时间：</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Name" xml:space="preserve">
+    <value>labelX13</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX13.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelX14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 266</value>
+  </data>
+  <data name="labelX14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX14.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="labelX14.Text" xml:space="preserve">
+    <value>起始时间：</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Name" xml:space="preserve">
+    <value>labelX14</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX14.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox_english.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>529, 17</value>
+  </metadata>
+  <data name="复制ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="复制ToolStripMenuItem.Text" xml:space="preserve">
+    <value>复制(&amp;C)</value>
+  </data>
+  <data name="粘贴ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="粘贴ToolStripMenuItem.Text" xml:space="preserve">
+    <value>粘贴(&amp;P)</value>
+  </data>
+  <data name="剪切ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="剪切ToolStripMenuItem.Text" xml:space="preserve">
+    <value>剪切(&amp;T)</value>
+  </data>
+  <data name="全选ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="全选ToolStripMenuItem.Text" xml:space="preserve">
+    <value>全选(&amp;A)</value>
+  </data>
+  <data name="清空ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="清空ToolStripMenuItem.Text" xml:space="preserve">
+    <value>清空(&amp;S)</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 114</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_english.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 61</value>
+  </data>
+  <data name="textBox_english.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 54</value>
+  </data>
+  <data name="textBox_english.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox_english.Name" xml:space="preserve">
+    <value>textBox_english</value>
+  </data>
+  <data name="&gt;&gt;textBox_english.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.RichTextBoxEx, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_english.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_english.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBox_teacher.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_teacher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 237</value>
+  </data>
+  <data name="textBox_teacher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 21</value>
+  </data>
+  <data name="textBox_teacher.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox_teacher.Name" xml:space="preserve">
+    <value>textBox_teacher</value>
+  </data>
+  <data name="&gt;&gt;textBox_teacher.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_teacher.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_teacher.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBox_zhuany.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_zhuany.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 208</value>
+  </data>
+  <data name="textBox_zhuany.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 21</value>
+  </data>
+  <data name="textBox_zhuany.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBox_zhuany.Name" xml:space="preserve">
+    <value>textBox_zhuany</value>
+  </data>
+  <data name="&gt;&gt;textBox_zhuany.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_zhuany.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_zhuany.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="textBox_xib.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_xib.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 179</value>
+  </data>
+  <data name="textBox_xib.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 21</value>
+  </data>
+  <data name="textBox_xib.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBox_xib.Name" xml:space="preserve">
+    <value>textBox_xib</value>
+  </data>
+  <data name="&gt;&gt;textBox_xib.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_xib.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_xib.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBox_number.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_number.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 150</value>
+  </data>
+  <data name="textBox_number.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 21</value>
+  </data>
+  <data name="textBox_number.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBox_number.Name" xml:space="preserve">
+    <value>textBox_number</value>
+  </data>
+  <data name="&gt;&gt;textBox_number.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_number.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_number.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="textBox_name.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 121</value>
+  </data>
+  <data name="textBox_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 21</value>
+  </data>
+  <data name="textBox_name.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBox_name.Name" xml:space="preserve">
+    <value>textBox_name</value>
+  </data>
+  <data name="&gt;&gt;textBox_name.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_name.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_name.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="textBox_LWname.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_LWname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 31</value>
+  </data>
+  <data name="textBox_LWname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 21</value>
+  </data>
+  <data name="textBox_LWname.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox_LWname.Name" xml:space="preserve">
+    <value>textBox_LWname</value>
+  </data>
+  <data name="&gt;&gt;textBox_LWname.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_LWname.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_LWname.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="textBox_xnumber.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBox_xnumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 4</value>
+  </data>
+  <data name="textBox_xnumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 21</value>
+  </data>
+  <data name="textBox_xnumber.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox_xnumber.Name" xml:space="preserve">
+    <value>textBox_xnumber</value>
+  </data>
+  <data name="&gt;&gt;textBox_xnumber.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBox_xnumber.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;textBox_xnumber.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelX15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 237</value>
+  </data>
+  <data name="labelX15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX15.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="labelX15.Text" xml:space="preserve">
+    <value>指导老师：</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Name" xml:space="preserve">
+    <value>labelX15</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX15.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelX16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 4</value>
+  </data>
+  <data name="labelX16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX16.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="labelX16.Text" xml:space="preserve">
+    <value>学科分类号：</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Name" xml:space="preserve">
+    <value>labelX16</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX16.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelX17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 208</value>
+  </data>
+  <data name="labelX17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX17.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="labelX17.Text" xml:space="preserve">
+    <value>专  业：</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Name" xml:space="preserve">
+    <value>labelX17</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX17.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="labelX18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="labelX18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX18.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="labelX18.Text" xml:space="preserve">
+    <value>论文中文名：</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Name" xml:space="preserve">
+    <value>labelX18</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX18.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="labelX19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 179</value>
+  </data>
+  <data name="labelX19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX19.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="labelX19.Text" xml:space="preserve">
+    <value>院  别：</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Name" xml:space="preserve">
+    <value>labelX19</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX19.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="labelX20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 61</value>
+  </data>
+  <data name="labelX20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX20.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="labelX20.Text" xml:space="preserve">
+    <value>论文英文名：</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Name" xml:space="preserve">
+    <value>labelX20</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX20.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="labelX21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 150</value>
+  </data>
+  <data name="labelX21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX21.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="labelX21.Text" xml:space="preserve">
+    <value>学  号：</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Name" xml:space="preserve">
+    <value>labelX21</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX21.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="labelX22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 121</value>
+  </data>
+  <data name="labelX22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="labelX22.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="labelX22.Text" xml:space="preserve">
+    <value>姓  名：</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Name" xml:space="preserve">
+    <value>labelX22</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Parent" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelX22.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="panelDockContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="panelDockContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 477</value>
+  </data>
+  <data name="panelDockContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer1.Name" xml:space="preserve">
+    <value>panelDockContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelDockContainer, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer1.Parent" xml:space="preserve">
+    <value>bar1</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="advTree_1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="advTree_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 0</value>
+  </data>
+  <data name="node1.Text" xml:space="preserve">
+    <value>node1</value>
+  </data>
+  <data name="advTree_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 448</value>
+  </data>
+  <data name="advTree_1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="advTree_1.Text" xml:space="preserve">
+    <value>advTree4</value>
+  </data>
+  <data name="&gt;&gt;advTree_1.Name" xml:space="preserve">
+    <value>advTree_1</value>
+  </data>
+  <data name="&gt;&gt;advTree_1.Type" xml:space="preserve">
+    <value>DevComponents.AdvTree.AdvTree, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;advTree_1.Parent" xml:space="preserve">
+    <value>panelDockContainer2</value>
+  </data>
+  <data name="&gt;&gt;advTree_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonX1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonX1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 5</value>
+  </data>
+  <data name="buttonX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 23</value>
+  </data>
+  <data name="buttonX1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonX1.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Name" xml:space="preserve">
+    <value>buttonX1</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Parent" xml:space="preserve">
+    <value>tabStrip2</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxX1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="textBoxX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 21</value>
+  </data>
+  <data name="textBoxX1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxX1.Name" xml:space="preserve">
+    <value>textBoxX1</value>
+  </data>
+  <data name="&gt;&gt;textBoxX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;textBoxX1.Parent" xml:space="preserve">
+    <value>tabStrip2</value>
+  </data>
+  <data name="&gt;&gt;textBoxX1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabStrip2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabStrip2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 448</value>
+  </data>
+  <data name="tabStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 29</value>
+  </data>
+  <data name="tabStrip2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tabStrip2.Text" xml:space="preserve">
+    <value>tabStrip2</value>
+  </data>
+  <data name="&gt;&gt;tabStrip2.Name" xml:space="preserve">
+    <value>tabStrip2</value>
+  </data>
+  <data name="&gt;&gt;tabStrip2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabStrip, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;tabStrip2.Parent" xml:space="preserve">
+    <value>panelDockContainer2</value>
+  </data>
+  <data name="&gt;&gt;tabStrip2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelDockContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="panelDockContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 477</value>
+  </data>
+  <data name="panelDockContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer2.Name" xml:space="preserve">
+    <value>panelDockContainer2</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelDockContainer, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer2.Parent" xml:space="preserve">
+    <value>bar1</value>
+  </data>
+  <data name="&gt;&gt;panelDockContainer2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="bar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="论文信息.Text" xml:space="preserve">
+    <value>论文信息</value>
+  </data>
+  <data name="目录.Text" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="bar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 528</value>
+  </data>
+  <data name="bar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bar1.Text" xml:space="preserve">
+    <value>论文信息</value>
+  </data>
+  <data name="&gt;&gt;bar1.Name" xml:space="preserve">
+    <value>bar1</value>
+  </data>
+  <data name="&gt;&gt;bar1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Bar, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;bar1.Parent" xml:space="preserve">
+    <value>dockSite1</value>
+  </data>
+  <data name="&gt;&gt;bar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockSite1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="dockSite1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="dockSite1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 528</value>
+  </data>
+  <data name="dockSite1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockSite1.Name" xml:space="preserve">
+    <value>dockSite1</value>
+  </data>
+  <data name="&gt;&gt;dockSite1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>119</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 553</value>
+  </data>
+  <data name="bar4.AccessibleDescription" xml:space="preserve">
+    <value>bar4 (bar4)</value>
+  </data>
+  <data name="bar4.AccessibleName" xml:space="preserve">
+    <value>bar4</value>
+  </data>
+  <data name="bar4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="bar4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="labelItem1.Text" xml:space="preserve">
+    <value>当前章节</value>
+  </data>
+  <data name="labelItem2.Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="buttonItem5.Text" xml:space="preserve">
+    <value>上一章节</value>
+  </data>
+  <data name="buttonItem7.Text" xml:space="preserve">
+    <value>下一章节</value>
+  </data>
+  <data name="buttonItem12.Text" xml:space="preserve">
+    <value>更新图序</value>
+  </data>
+  <data name="buttonItem13.Text" xml:space="preserve">
+    <value>更新表序</value>
+  </data>
+  <data name="buttonItem24.Text" xml:space="preserve">
+    <value>重新编号</value>
+  </data>
+  <data name="buttonItem25.Text" xml:space="preserve">
+    <value>继续编号</value>
+  </data>
+  <data name="labelItem3.Text" xml:space="preserve">
+    <value>论文作者</value>
+  </data>
+  <data name="labelItem4.Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="bar4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 528</value>
+  </data>
+  <data name="bar4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>950, 25</value>
+  </data>
+  <data name="bar4.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="bar4.Text" xml:space="preserve">
+    <value>bar4</value>
+  </data>
+  <data name="&gt;&gt;bar4.Name" xml:space="preserve">
+    <value>bar4</value>
+  </data>
+  <data name="&gt;&gt;bar4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Bar, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;bar4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bar4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tabStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 25</value>
+  </data>
+  <data name="tabStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>950, 26</value>
+  </data>
+  <data name="tabStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tabStrip1.Text" xml:space="preserve">
+    <value>tabStrip1</value>
+  </data>
+  <data name="tabStrip1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.Name" xml:space="preserve">
+    <value>tabStrip1</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabStrip, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dockSite2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="dockSite2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1278, 25</value>
+  </data>
+  <data name="dockSite2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 528</value>
+  </data>
+  <data name="dockSite2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dockSite2.Name" xml:space="preserve">
+    <value>dockSite2</value>
+  </data>
+  <data name="&gt;&gt;dockSite2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dockSite3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="dockSite3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="dockSite3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 0</value>
+  </data>
+  <data name="dockSite3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dockSite3.Name" xml:space="preserve">
+    <value>dockSite3</value>
+  </data>
+  <data name="&gt;&gt;dockSite3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dockSite5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="dockSite5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="dockSite5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 528</value>
+  </data>
+  <data name="dockSite5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dockSite5.Name" xml:space="preserve">
+    <value>dockSite5</value>
+  </data>
+  <data name="&gt;&gt;dockSite5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dockSite6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="dockSite6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1278, 25</value>
+  </data>
+  <data name="dockSite6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 528</value>
+  </data>
+  <data name="dockSite6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dockSite6.Name" xml:space="preserve">
+    <value>dockSite6</value>
+  </data>
+  <data name="&gt;&gt;dockSite6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bar3.AccessibleDescription" xml:space="preserve">
+    <value>bar3 (bar3)</value>
+  </data>
+  <data name="bar3.AccessibleName" xml:space="preserve">
+    <value>bar3</value>
+  </data>
+  <data name="bar3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="buttonItem2.Text" xml:space="preserve">
+    <value>生成论文(&amp;C)</value>
+  </data>
+  <data name="buttonItem23.Text" xml:space="preserve">
+    <value>导入论文(&amp;I)</value>
+  </data>
+  <data name="buttonItem3.Text" xml:space="preserve">
+    <value>退出(&amp;E)</value>
+  </data>
+  <data name="buttonItem1.Text" xml:space="preserve">
+    <value>开始(&amp;B)</value>
+  </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>更新图序(&amp;P)</value>
+  </data>
+  <data name="buttonItem11.Text" xml:space="preserve">
+    <value>更新表序(&amp;T)</value>
+  </data>
+  <data name="buttonItem9.Text" xml:space="preserve">
+    <value>封面浏览(&amp;B)</value>
+  </data>
+  <data name="buttonItem22.Text" xml:space="preserve">
+    <value>翻译(&amp;T)</value>
+  </data>
+  <data name="buttonItem28.Text" xml:space="preserve">
+    <value>前期工具(&amp;Q)</value>
+  </data>
+  <data name="buttonItem26.Text" xml:space="preserve">
+    <value>重新编号(&amp;R)</value>
+  </data>
+  <data name="buttonItem27.Text" xml:space="preserve">
+    <value>继续编号(&amp;C)</value>
+  </data>
+  <data name="buttonItem8.Text" xml:space="preserve">
+    <value>手动修改(&amp;U)</value>
+  </data>
+  <data name="buttonItem29.Text" xml:space="preserve">
+    <value>后期工具(&amp;H)</value>
+  </data>
+  <data name="buttonItem16.Text" xml:space="preserve">
+    <value>Word异常处理(&amp;W)</value>
+  </data>
+  <data name="buttonItem14.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="buttonItem6.Text" xml:space="preserve">
+    <value>工具(&amp;T)</value>
+  </data>
+  <data name="buttonItem15.Text" xml:space="preserve">
+    <value>格式设置(&amp;S)</value>
+  </data>
+  <data name="buttonItem4.Text" xml:space="preserve">
+    <value>设置(&amp;S)</value>
+  </data>
+  <data name="help.Text" xml:space="preserve">
+    <value>查看帮助(&amp;H)</value>
+  </data>
+  <data name="buttonItem17.Text" xml:space="preserve">
+    <value>反馈意见(&amp;B)</value>
+  </data>
+  <data name="buttonItem18.Text" xml:space="preserve">
+    <value>更新(&amp;U)</value>
+  </data>
+  <data name="buttonItem20.Text" xml:space="preserve">
+    <value>格式优化软件(&amp;T)</value>
+  </data>
+  <data name="buttonItem21.Text" xml:space="preserve">
+    <value>文献查询系统(&amp;F)</value>
+  </data>
+  <data name="about.Text" xml:space="preserve">
+    <value>关于(&amp;A)</value>
+  </data>
+  <data name="buttonItem19.Text" xml:space="preserve">
+    <value>帮助(&amp;H)</value>
+  </data>
+  <data name="labelItem7.Text" xml:space="preserve">
+    <value>毕业论文格式优化软件</value>
+  </data>
+  <data name="bar3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bar3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 24</value>
+  </data>
+  <data name="bar3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bar3.Text" xml:space="preserve">
+    <value>bar3</value>
+  </data>
+  <data name="&gt;&gt;bar3.Name" xml:space="preserve">
+    <value>bar3</value>
+  </data>
+  <data name="&gt;&gt;bar3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Bar, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;bar3.Parent" xml:space="preserve">
+    <value>dockSite7</value>
+  </data>
+  <data name="&gt;&gt;bar3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockSite7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="dockSite7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockSite7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 25</value>
+  </data>
+  <data name="dockSite7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockSite7.Name" xml:space="preserve">
+    <value>dockSite7</value>
+  </data>
+  <data name="&gt;&gt;dockSite7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dockSite8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="dockSite8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 553</value>
+  </data>
+  <data name="dockSite8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 0</value>
+  </data>
+  <data name="dockSite8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dockSite8.Name" xml:space="preserve">
+    <value>dockSite8</value>
+  </data>
+  <data name="&gt;&gt;dockSite8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;dockSite8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockSite8.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAgIAAAAEAIAAoCAEAFgAAACgAAACAAAAAAAEAAAEAIAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAA
+        AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AHh1wIu5uMtH////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8AsLDET5ubumT///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wCxscVOb261kevr7BT///8A////AP//
+        /wD///8A////AP///wDm5ukZ9PT0C////wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AKqqw1UwLrzRrq7FUf///wD///8A////AP///wD///8A4+PlHJ6dwGL6+voF////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A3d3iIt3d4iL///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AnZ2/YgEAyP8sLL7T////AP//
+        /wD///8A7e3uEiYlxNoBAMn/0tLZLf///wD///8A////AP39/QLs7OwVw8bGXb3DxY7V5OXc4vj5+M/2
+        +/+y7/n/tu35/7Hu+P+w7Pr/q9jg1dLU1Tf8/PwD////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wCbm8BkjY28cv///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wCZmb9mAQDI/wQDyfzJydQ2////AOXl5xp1dbeLAwDI/wcHyfj4+PgH8fHxD8jJ
+        ylK9w8OI0ODh1eH29/bl+v7/5fr+/+L6/v/X9/z/s+74/7Xu+P+y7vj/tO74/7Xu9/+37vn/t+Pq67PB
+        w4r///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AIeHt3g3Nr/J////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AHt6t4UAAMn/AADH/1lX
+        wKn///8Aamm0lgcHx/gCAcb/Ly/O8MrY2cnd8PTy5fv//+X7///k+/7/5fv+/+X7///k+///2vf8/8Dx
+        +v+07vj/tO/5/7Tv+f+07/n/tu75/7rv+v/A8Pn/wvH6/brDxH/9/f0C////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8AfXyygwQDxvyqqsRV////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8AbW61kgEAyf8BAMf/BQXO+mRktJ4IBsj5AADJ/wAAyf9reeD/5fr8/+T6
+        /f/l+///5fv//+X6///k+v//5vv+/+f7///F8vn/tu34/7Hu+f+07/n/tO75/7bu+f+67/r/vfD6/8Px
+        +v/J8vr/yvX7/7nIyp3+/v4B////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wB3d7OIAQDI/wAA
+        yf9kYrid////AP///wD///8A////AP///wD///8A6enpGcnLy06/x8mi0N7g1eP6+P9AQdf/AQDK/wAB
+        yv8BAcn/AQDL/wEByv8BAcr/ExnO/+Xz/P/k+/3/5fv+/+X7///l+///5fv+/+T7/v/m+v7/xPP5/7Pt
+        +P+z7vj/tu74/7Tv+f+47vn/u/D4/8Lx+f/F8vr/zfT6/9H0+//V9vz/1vb7/7vHyKbd3t4o////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AJWU
+        xWs0NLjOgIC1gKeov1ja2t0l////AHd2s4oDAcz/AADN/wcG0Pnd3eEi////APT09AvS09M7vMPEj8fV
+        18Xi+P385Pr//+T6///k+v7/5vz4/yww2f8AAM3/AADN/wAAzv8BAM3/AQDN/wAAzv9QV+D/5vr6/+T6
+        /f/l+v7/5fv//+X7///k+/7/5Pv+/9j3/f+17fj/s+75/7Lv+f+27vn/uO75/7zv+v/A8Pn/x/P6/8r0
+        +//P9Pv/0/X7/9j3/P/c+P3/2e7x7r3BwnP///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AIuLvHUDA8n8AQDK/wYGyvkfHsfiFxfG6gAC
+        0f8BAtb/AwLb/3BzyL+6xc213/f5+OD5/P/d+vz/3vn8/+L5/f/k+v//4/r+/+T6/f/k+/z/HiLX/wAA
+        0f8AANH/AAHS/wAB0f8BANP/AAHR/5Oj6f/o+P7/5Pv8/+X6/v/l+///5fv//+X7/v/k+/7/xfL5/7Hu
+        +f+x7/n/s+75/7ju+f+67/r/v/D6/8Px+v/K9Pv/zvT8/9L1+//W9vz/2/j9/975/f/i+v3/vsjKrf//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AExMt7QDA9L8BwLV/wEB2f8BAdv/AgDf/wIE3v8BBd7/KSvo/5Sn8//i+f7/4vn+/+P5
+        /v/i+f7/4fr+/+P6///j+v3/4/r8/972/f8TFtr/AAHW/wAB1v8AAdb/AQDV/wAB1P8EBNb/z+X4/+f6
+        /P/k+v3/5fv+/+X7///l+///5fr+/9/5/f+37/f/s+74/7Xu+P+47vj/vO/6/77x+//E8vn/yfP6/870
+        /P/R9fv/1vb8/9r3/f/f+f3/4vr+/+P7/v/K293T////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A+vr6Bd3e3im9wsJ0vMfJpNXu8/HZ9/z/3Pf8/7bN8v8qKu3/S0rv/1lZ
+        8/89P/H/CQbw/wQF9P8FBfb/ERH0/8zj9//f+Pz/4fn6/+D5/f/h+v7/4fr+/+L6/f/k+f7/0en4/wQD
+        3P8BAtz/AQLc/wEC3P8AAtv/AQHd/zxC5f/l+///5fv//+X7///l+///5fv//+X7///l+v//2ff8/8n0
+        /P/J8/r/xvL6/8Ty+v/B8vr/vvD5/8rz+v/O9Pv/1Pb8/9f3/f/e+P3/4fn9/+X7///l+///5fr+/9zu
+        8e7///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////APLy8g3V19c0usHDe7zJzKzV8PTy2fb8/9f2
+        /f/Z9vz/2vf8/9v4/f/b+Pr/3vf6/6G08f9AQ/P/YGD1/09N9/8HCPj/Bwf5/wcI+v8ICfv/Ulr2/975
+        +f/h+Pz/4fr9/+H6/v/h+v7/4vr+/+T6/v/G2vX/AwHf/wIC3/8CAt//AgLf/wYA4f8BA97/XWnn/+X7
+        ///l+///5fv//+X7///l+///5fv//+T6/v/Y9/z/yvT8/8nz+v/G8/r/w/L6/8Dx+f+78Pr/yfL6/9T1
+        +//Z9v3/3Pj+/+D5/v/j+v7/5fv//+X7///i+v7/3fL18f///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDn5+cbys7ORrnB
+        w4vA0NO91/H499T4/f/U9vz/1fb9/9j3+//Y9/v/2vf7/9r4/P/a+P3/2/f9/9z3/f/b+Pz/3Pn7/669
+        9P9GR/n/Pj/7/wsL+v8JCf3/CAj8/wcK+/8HCP7/mKzy/9/4+//g+P3/4fr+/+H6/v/h+f3/4vn+/7jI
+        8P8CAeT/AwPi/wMD4v8DA+L/BQPh/w8S4v9/i+//5fv//+X7///l+///5fv//+X7///l+///4/r+/9f3
+        /f/L9Pz/yPP6/8Xy+v/D8vr/v/H5/7vw+f/B8Pr/zvT8/9v4/v/f+P7/4/r//+T7///l+///5fv//+P6
+        /v7G0tO/////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD4+PgH1tjYM77ExGO4x8mnw9zf1NT1+//U9v3/1vb8/9X2/P/W9/z/2ff8/9f2/P/W9v3/1/f8/9j2
+        /P/Y9vz/2ff8/9v4/f/b+P3/2/f8/9v3/P/f+Pr/2vn6/3J99/8pK/r/Cwn+/wgJ/v8JCf3/CAn+/wYJ
+        /P8hHPz/1u76/+D5/f/h+v7/4fr+/+H5/v/i+f3/q7ns/wIB6P8EA+X/BAPl/wQD5f8CBOb/MjTp/6Cw
+        9f/l+///5fv//+X7///l+///5fv//+X7///h+v7/1ff8/8r0/P/I8/r/xPL6/8Ly+v++8vn/vvD3/7jt
+        +f+97/n/1fb7/+D5/v/k+/7/5Pv+/+X7///l+///4PD1777BwnD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/f39Atrb
+        2yzFyclTtsPElLvN073N6vHvzvP6/c70+//Q9Pz/0/T9/9L0/P/S9fv/1Pb8/9P1+//T9fv/1ff9/9X3
+        /f/V9/3/1vf9/9f3/f/X9/z/1/f9/9f3/f/X9/3/2Pb8/9n3/P/Z9/z/2vj9/9r4/f/b+P3/2/j9/9v4
+        /f/c+f7/3fb8/8vk9/8gJPj/CQn9/wkJ+/8ICfz/BQr9/w4H/v9QXfb/o7ny/0ZI8P8MC/P/BQb0/wUG
+        9v8ICfX/Bgf3/wMD7/8EA+z/BgTq/wQE6/9xfPH/3PP6/+X7///l+///5fv//+X7///l+///5fv//+D5
+        /v/S9fv/yPL7/8bz+v/E8vr/wfH6/73w+v+48Pf/tO74/7Tt+f+47fn/tO35/7Xt+fq04erjuMPFb93e
+        3if///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD+/v4B5+joGtLU1Dm5wcJ3t8PGmsHa39XN7fLwyvT7/83z/f/R8/7/zfX8/9D0/P/S9Pz/0fX6/9D1
+        +v/P9/r/0Pb7/9L2/P/T9vz/1Pb8/9T2/P/V9/3/1ff9/9X3/f/V9/3/1/f9/9f3/f/X9/3/1/f8/9f3
+        /f/X9/3/2Pb8/9j2+//Z9/z/2vj9/9r4/f/b+P3/2/j9/9v4/f/Z+vr/3Pn6/8DZ8v8oLvf/Bwn8/wgI
+        /f8JCf3/Bgr8/w4O9v8ODu7/Awbq/wQG7f8GA/X/BgX0/wUF+f8IBvv/Bwf6/wcG9v8EBO//BATu/5Kh
+        9f/k+/z/5fv//+X7///l+///5fv//+X7///l+///3/n+/9H1+//H8vv/xvP6/8Lx+f/A8fn/vPD6/7vt
+        +f+37fn/tu35/7Tu9vStysys19nZL/n5+Qb///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD6+voF2dvbLbvDxG60wcOYutLWxcbj6ebS9Pn/0/X6/9X2+//W9/v/0fb8/831
+        +//P9Pv/zvT7/871/P/Q9P3/0PT8/9D1+//R9fv/0fX8/9L1/f/S9fz/0vb8/9L2/P/U9vz/1Pb8/9X3
+        /f/V9/3/1Pf9/9X3/f/V9/3/1/f9/9f3/P/X9/z/1vb//9f3/f/X9v3/1/b8/9j3/P/a+P3/2vj9/9v4
+        /f/b+P3/2/j9/9z3/P/b9/z/3Pn6/8nl8/8eIfn/Bwn9/wgK/f8JCP7/BAXs/wQC6v8EA+7/BQXz/wYI
+        +v8HB/z/Bwj8/wYI+/8GBvv/Bwf7/wYH+v8EBPX/ssb3/+T7/f/l+///5fv//+X7///l+///5fv//+X7
+        ///e+f3/0PX7/8fy+//F8/r/wfH5/7/x+f+78Pr/uO75+rDHyqjBx8dZ8/PzDP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////ALbCxIzJ5+/s0/X7/9T2
+        +//Z9/v/3Pf7/+H3/f/k+Pz/4/j8/973/P/S9vv/0PX8/8/1/f/P9Pz/z/T8/9D1/f/Q9f3/0PX9/9H1
+        +//R9fv/0fX7/9H1+//S9vz/0vb8/9P2/P/U9vz/1Pb8/9b2/P/V9/3/1ff9/9X3/f/V9/3/1vf9/9f3
+        /f/X9/3/1/f9/9f3/f/Y9/z/2ff8/9n3+//b+Pz/2/j9/9v4/f/d9/3/2/j9/9z5/v/c+f7/3fj8/4aX
+        9v8iJvr/CQr6/wcK9f8CA+b/AwPn/wUH9/8ICv//CQn//wkK//8JCv//CQr//wgJ/v8HCP3/Bgf8/wcH
+        /f+8z/X/5Pn7/+P6/v/m+/3/4/r8/+P6/v/l+///5fv//9/5/f/Q9fr/xfH5/8Py+v+96fHus9HVwcTK
+        ylHf398m////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A+vr6BbrMzarN9fv/5ff8/+r5/P/v+/3/8Pv9//D6/f/u+v3/5fj9/9v2/P/T9Pv/zvT7/8z2
+        /f/M9f3/zvX9/871/f/P9Pz/z/T8/9D1/f/Q9f3/0fX7/9H1+//R9fv/0fX7/9L2/P/S9vz/0vb8/9L2
+        /P/T9vz/1Pb8/9T2/P/V9/3/1ff9/9X3/f/W9/3/1/f9/9f3/f/X9/3/1/f9/9f3/f/X9/z/2ff8/9n3
+        /P/Z9/z/2vj9/9v4/f/b+P3/2/j9/9z5/v/d+fr/2/f7/9v1+/9jcvL/AgXa/wMC5f8FBvX/CQn//wkJ
+        //8JCv//CQr//wkK//8JCv//CQr//wkK//8JCv//Bwr6/woM/P9ZYvf/4/n5/+P8+P/l+/3/5fv+/+X7
+        ///l+///5Pr9/7rCw5v///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AOjo6Bi5wMBzz/P9/932+//q+v3/8Pr9//L7
+        /v/y+/7/6/r9/+P4/P/V9fv/z/T8/830/P/M9Pz/y/X8/871/f/N9f3/zvX9/871/f/P9Pz/z/T8/9D1
+        /f/R9fv/0fX7/9H1+//R9fv/0fX7/9L2/P/S9vz/0vb8/9L2/P/U9vz/1Pb8/9T2/P/V9/3/1ff9/9b3
+        /f/X9/3/1/f9/9f3/f/X9/3/1/f9/9f3/f/Y9vz/2ff8/9n3/P/a+P3/2/j9/9v4/f/b+P3/3Pn+/9r4
+        /f/a+fn/2/j7/7DG7f8CAuD/AwTo/wcI+/8JCv//CQr//wkJ//8JCv//CQr//wkK//8JCv//CQr//wkK
+        //8JCf3/Bwn6/w4P+v+7yvb/4/j9/+X6/f/k+/7/5fv//+X7///l+/7/vcfIqf///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8AusDCb8Tk7OjX9/v/5vn7//H6/f/y+/7/8fr9/+76/P/f9/z/1fX8/8/0/P/M9Pz/yvX8/8v1
+        /P/L9fz/y/X8/871/f/O9f3/zvX9/8/0/P/P9Pz/0PX9/8/1/f/Q9fz/0vX6/9L1+v/R9fv/0vb8/9L2
+        /P/S9vz/0vb8/9L2/P/U9vz/1Pb8/9X3/f/V9/3/1ff9/9X3/f/X9/3/1/f9/9b2/P/W9vz/1/f9/9f3
+        /P/Y9/z/2ff8/9r4/f/a+P3/2/j9/9v4/f/b+P3/3Pn+/9z5/v/c+f7/h5ns/wMC1f8GCO7/Cgz8/wkJ
+        /v8JCf//CQr+/wkK//8JCv//CQr//wkK//8JCv//CQr//wkK//8ICf7/Bwj9/yor+P/V7vf/5Pn9/+P6
+        /v/l+///5fv//+T7///Bzc+7////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wC60dfIzvL7/+T4/P/s+/3/8vr9//L7
+        /v/t+vz/5Pj8/9P1+//M9Pv/y/T7/8v1/P/L9fz/y/X8/8v1/P/L9fz/zvX9/871/f/O9f3/zvT8/8/0
+        /P/P9Pz/z/X9/9D1/f/Q9fv/0fX7/9H1+//R9fv/0vb8/9L2/P/S9vz/0vb8/9T2/P/T9fv/1Pb8/9X3
+        /f/V9/3/1ff9/9f3/f/X9/3/1/f9/9f3/f/X9/3/1/f8/9j3/P/Z9/z/2ff8/9r4/f/a+P3/2/j9/9v4
+        /f/c+f7/3Pn+/9z5/v9zgOj/AwHX/xQV7/8cHP3/ERH9/wkK/f8JCv7/CQr//wkK//8JCv//CQr//wkK
+        //8JCv//CQr//wkK//8ICf7/BAf9/1pj9v/i+/v/5Pv+/+X7///l+///5Pv//8HNz7v///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8AxNTWwdD0+v/e9/v/7fv9//D8/v/u+v3/6Pn8/9f0+//M8vv/yvP6/8vz+v/L8/v/y/X8/8v1
+        /P/L9fz/y/X8/8v1/P/N9Pz/zfT8/871/f/O9f3/zvT8/870/P/Q9f3/0PX9/8/1/f/Q9fz/0fX7/9H1
+        +//R9fv/0vb8/9L2/P/S9vz/1Pb8/9T2/P/U9vz/1ff9/9X3/f/V9/3/1/f9/9f3/f/X9/3/1/f9/9f3
+        /P/X9/3/2Pf8/9n3/P/Z9/z/2ff8/9j4/f/Z+P3/2/j9/9v4/f/b+P3/3Pn+/2585f8DAtT/Jyjy/z8/
+        /P8qLPv/DhH5/wcI+f8HCPr/Bwj6/wcI+v8HCP3/Bwj9/wkK//8JCv//CQr//wkK//8ICP3/Bgf5/4WS
+        +P/h+Pz/5fv//+X7///k+v7/2uvt6f///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AN3d3SnN9Pn52Pb7/+X5/P/v/P7/8vv+/+r6
+        /f/d9/z/zfP7/8rz+v/I9Pv/yPT7/8r0+//K9Pv/y/X8/8v1/P/L9fz/y/X8/8z0/P/L9fz/zvX9/871
+        /f/O9f3/zfT8/8zz+//P9f3/0PX9/9D1/P/R9fv/0fX7/9H1+v/R9fv/0vb8/9L2/P/S9vz/0/b8/9T2
+        /P/U9vz/1Pb8/9X3/f/V9/3/1/f9/9f3/f/X9/z/1/f8/9f3/f/X9v3/2Pb8/9n3/P/Z9/z/2ff8/9r4
+        /f/a+P3/2/j9/9v4/f/b+P3/gJTq/wYC0v8qKfL/Skj8/0FA+f8aGvv/CAf3/wUH9f8FBvX/BQb4/wcH
+        +f8HB/r/CAj9/wgJ/v8JCv//CQr//wgJ/P8GCfn/TFP2/7rM9//l+f3/5Pv8/+P7/v/l+/775+fnG///
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8AuMfIo8rz+//g9/z/6/r9//H7/v/x+/7/4vj8/9X1+//I8/r/yPP6/8r0+//K9Pv/yvT7/8r0
+        +//K9Pv/y/X8/8v1/P/L9fz/zPT8/8v0/P/N9Pz/zvX9/871/f/O9f3/zfT8/870/P/Q9f3/0PX9/9D1
+        +//R9fv/0fX7/9H1+//S9vz/0vb8/9L2/P/S9vz/1Pb8/9P1+//U9vz/1ff9/9X3/f/V9/3/1/f9/9f3
+        /P/X9/3/2Pj+/9f3/f/X9vz/2ff8/9n3/P/Z9/z/2ff8/9r4/f/b+P3/2/j9/9v4/f+dten/AgLW/yco
+        7P9OT/r/Vlf5/yor9/8KCfT/BgX0/wUF8/8GBvT/Bgb1/wYH9/8HB/r/Bwf8/wgJ/v8JCv//CAn9/woJ
+        /P8YGvf/hZL3/+b5/v/i/Pz/5fr9/+X7/v/IyclU////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wDE7fL1z/L7/+X4/P/t+/3/8fv+/+36
+        /f/Y9vv/zfP6/8bz+v/H8/r/yfP6/8r0+//K9Pv/yvT7/8r0+//K9Pv/y/X8/8v1/P/M9Pz/zfT8/8v0
+        /P/O9f3/zvX9/871/f/O9f3/zvT8/8/0/P/Q9f3/0PX9/9D1+//R9fv/0fX7/9H1+//S9vz/0fb8/9L2
+        /P/T9vz/1Pb8/9T2/P/U9vz/1ff9/9X3/f/W9/3/1/f9/9f3/f/Y+P3/1/f8/9f3/f/Y9vz/2ff8/9n3
+        /P/Z9/z/2vj9/9v4/f/b+P3/2/j9/8Xe9/8EA9P/ISDr/0xL+/9sa/n/REP2/xAQ8v8GBvD/BQXw/wUF
+        8P8FBfH/BQXz/wUH9v8GBvn/Bwj7/wgJ/f8HCP7/Cgn8/wUH+/9VXvf/5vn9/+H6/v/m+/3/5Pv//77C
+        wnf///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A3NzcKtb3+v/W9fr/6/n9/+/7/f/u+v3/4/j9/8zz+//H8vv/x/L6/8fz+v/H8/n/yPP6/8r0
+        +//L8/v/y/P7/8r0+//L9fz/y/X8/8v1/P/L9fz/y/X8/830/P/O9f3/zvX9/831/f/O9f3/zfT8/8/0
+        /P/Q9f3/0PX9/9D1/P/R9fv/0vX7/9P2+v/S9vz/0vb8/9L2/P/U9vz/1Pb8/9X2/P/V9/3/1ff9/9X3
+        /f/W9/3/1/f9/9b2/P/Y9v3/1vb8/9f3/f/X9/3/2Pf8/9n3+//Z9/v/2vj9/9r4/f/b+P3/3Pf5/1pm
+        6P8REd//Nzfz/3999/95d/b/MzLw/xIS6v8CA+n/BQPq/wMD6v8EBOz/BAXw/wUF8/8GBvf/Bgf6/wcI
+        /v8JCf//CAf7/wwN9v/a8Pn/5fr8/+P6/f/j+/7/2e3u5P///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wDS0tI71fb6/9j2/P/s+v3/7/v+/+v6
+        /f/d9/z/yfL6/8by+//H8vv/x/L6/8fz+v/H8/r/yvT7/8r0+//K8/v/yvT7/8v1/P/L9fz/y/X8/8v1
+        /P/L9fz/zfT8/830/P/O9f3/zfX9/871/f/O9Pz/zvT8/9D1/f/Q9f3/0PX9/9D1/P/R9fv/0vX7/9H1
+        +//S9vz/0vb8/9L2/P/T9vz/1Pb8/9T2/P/V9/3/1ff9/9X3/f/X9/3/1/f9/9f2/f/X9/3/1/f9/9f3
+        /f/X9/z/2Pf8/9n3+//Z9/z/2vj9/9r4/f/Z9/v/p7ns/woK3P8qKen/dHX2/4eI9v9PT/D/IyTp/wME
+        5v8DBOL/AwLl/wMD6P8EBOz/BATv/wUF9P8FBvf/Bwf8/wgJ/v8HCPz/BQb5/6q78f/l+P3/5Pn9/+T7
+        /v/k+vz8yMnJVP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AMjIyFLU9vr/2fX8/+36/f/v+/7/5/n9/9X1+//H8vr/xfL7/8fy+//H8vv/x/L6/8fz
+        +v/I8/r/yvT7/8nz+v/K9Pv/yvT7/8r0+//L9fz/y/X8/8v1/P/N9Pz/zfT8/830/P/N9f3/zvX9/871
+        /f/P9Pz/z/T8/9D1/f/Q9f3/0PX9/9H1+//R9fv/0fX7/9H1+//S9vz/0vb8/9L2/P/T9vz/1Pb8/9T2
+        /P/V9/3/1ff9/9X3/f/X9/3/1/f9/9f3/f/X9/3/1/f9/9f3/P/X9/z/2ff8/9j3/P/a+P3/2vj9/9r4
+        +v/b8vv/ExXZ/xoa5P9gYff/iIv0/3Bu8P9BP+r/Cgrj/wID3/8CA+H/AwPj/wQD5v8DBOv/BAXx/wUF
+        9P8GB/n/Bwj8/wcI/f8FBvj/c4H1/+T6/P/j+v3/5Pr//+P7/P+/xMaU////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AxcXFW9P1+f/b9vz/7fv9/+/6
+        /f/j+Pz/z/X6/8Xy+v/F8vv/x/H7/8fy+//H8vr/x/L6/8fz+v/J8/r/yvT7/8r0+//K9Pv/yvT7/8v1
+        /P/L9fz/y/X8/830/P/N9Pz/zfT8/831/f/O9f3/zvX9/8/0/P/P9Pz/0PX9/9D1/f/Q9f3/0PX9/9H1
+        +//R9fv/0fX7/9L2/P/R9fz/w+T5/6vF9v+Dlvf/eYr7/3KF/P90hvz/gJL4/5Ko9//C3fn/0O/8/9j4
+        /v/X9/3/1vf9/9f3/P/Y9/z/1/f8/9n3/P/a+P3/2/f7/9f2/P89Rd//DQ7e/0lH9v98fvP/h4by/2Fh
+        7P8cHeD/Bwfc/wEB3P8BAt7/AwPi/wID5/8EBO3/BQXy/wYG9/8GCPv/Bwj9/wYH9v9JTvT/4/z6/+L6
+        /f/k+v//4/v9/8vX2cT///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wDGxsZaz/b6/9n2/P/t+v3/7fr9/9v2/P/K8/v/xfL7/8Xy+//F8/v/xfL7/8fy
+        +//H8vv/x/H5/8fz+v/I8/r/yvT7/8r0+//K9Pv/yvT7/8r0+//L9fz/y/X8/8v0/P/M9Pz/y/X8/831
+        /f/O9f3/zvX9/871/f/P9Pz/z/T8/87y/P+etff/W2b3/z9G9P8iJvb/AQL6/wAB+/8AAPv/AAD9/wAA
+        /v8AAP7/AAD+/wAA/v8AAP7/AAD9/wAA/P8AAPz/AAD8/wEA/P8GB/n/KCz2/4mZ9v/K5/r/2Pb8/9n3
+        /P/Y9/v/2fb8/6e+8P87ROH/ExXm/0E+8v+DgvP/kJDy/2Zm6f83Nd7/CwvV/wIC1P8BAdv/AQHg/wMD
+        6P8EBO3/BAXy/wUG9/8HB/v/BAb0/xsc8v/k+P3/5Pr9/+T6///k+v//5fv//9fY2DH///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////ANLS0jvQ9vr/2Pb8/+z6
+        /f/r+v3/1/b8/8nz+v/E8vr/xfL7/8Xz+//F8/v/xvL7/8fy+//H8fr/x/L6/8jz+v/J8/r/yvT7/8r0
+        +//K9Pv/yvT7/8v1/P/L9fz/y/T8/8z0/P/L9fz/zPT8/871/f/O9f3/zvX9/830/P+Tqvb/RU30/wIB
+        +P8AAPz/AAD9/wAA/f8BAP3/AAD9/wAA/P8AAP3/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA
+        /v8AAP7/AAD+/wAA/v8AAP3/AgH7/wsM9/99i/X/wdn4/9j4+v/a9/r/1vL7/3uI7v8DCdr/IyHo/2Nj
+        8P+GhvL/iInu/2Ni5f8jItX/CwvS/wEB2P8BAd7/AwPl/wQE6v8FBfD/Bgb1/wYH+v8FBvP/ExXt/+L2
+        ///k+v3/5Pr//+T6///k+v//w8bGWv///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A19fXMtL2+v/W9fr/6/n9/+r6/f/V9fv/x/L6/8Ty+v/F8vv/xPP7/8Xz
+        +//F8/v/xvL7/8fy+//H8vv/yPL5/8ny+f/K8vn/yvP6/8rz+v/K8/r/y/T7/8v0+//L8/v/zPP7/8v1
+        /P/M9Pz/zvX9/831/f+21Pr/VWH1/wQE+v8AAP3/AAD9/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD9/wAA
+        /f8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP3/AAD9/wAB
+        +v8aHfb/nbL0/9j2+f/a9vr/v9ny/wUE4P8MC9//Ozzt/2Zm7/+Rke//goXt/0pL3f8jJdb/BQfU/wEC
+        3P8EA+T/BATo/wQF7/8GBfP/BQb4/wUF8f8YHOz/4fj9/+P6/v/k+v//5Pr//+T6//+8wcFy////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDn5+cb1/X6/9L1
+        +//p+f7/6fn9/9T1+v/E8vr/w/L6/8Tz+//F8/v/xfP7/8Xz+//G8vv/x/L7/8fy+//I8vr/x/L5/8ry
+        +f/K9Pv/yvP6/8rz+v/K9Pv/y/T7/8v0+v/L9Pr/y/X8/8v1/P/F7Pv/jab3/wkJ+P8BAfr/AAD9/wAA
+        /f8AAP7/AAD+/wAA/v8AAP3/AAD8/wAA+/8BAPz/AAD8/wAA/P8AAP3/AAD9/wAA/P8AAPv/AQD9/wEA
+        /P8AAPv/AAD9/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD7/wAA+/8CAfn/OT31/8Lc+f/Z9/r/ZXDo/wIE
+        2f8cGuT/Ozns/3R16/+JiOz/cHHo/0xO4f8bGtv/CArc/wMD4f8EA+f/AwTv/wQH8P8FBfX/BgTs/ywx
+        7f/l+fr/4/r9/+T6///k+v//5vr//77HyKjc3Nwq////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wDR9Pj0yPL9/+P4/f/m+P3/z/T7/8Ty+v/B8fn/wvH5/8Xz
+        +//E8vr/xfP7/8Xz+//F8vv/x/L7/8by+v/G8/r/x/P6/8jz+v/K8/r/yvP6/8r0+//K9Pv/yvT7/8v1
+        /P+32/n/PUX0/wAA/P8AAP3/AAD+/wAA/v8AAP7/AAD9/wAC+f8AAPn/QULz/4mJ8//k5Pf//Pz8//7+
+        /f/+/v7//f79//3+/v/+/v3//v79//7+/f/+/v7//f/9//f4+//BxPP/gID0/x0e9f8DAvj/AAH6/wAA
+        /f8AAP7/AAD+/wAA/v8AAP3/AAD8/w0N+f+er/j/zOb1/xUX4P8EBd//GRnk/y0w5f9SUen/X13o/1FV
+        5P86O+b/Fhbl/wgJ5v8FBe3/BQT0/wQE6P8BAeX/j57r/+D2///h+vz/4fr+/+P6///k+v//2Oru6b7C
+        wmr///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////ALnM
+        zrTH8Pr/4Pf8/+X3/f/N9Pv/w/L6/8Hy+v/C8vr/xPL6/8Xz+//F8/v/xfP7/8Xz+//G8vv/xvL6/8Xz
+        +v/H8/r/x/P6/8r0+//K9Pv/yvT7/8nz+v/K9Pv/r9H5/xQW9f8BAfr/AAD+/wAA/v8AAP7/AAD9/wAA
+        /P8HBvn/X1/z/77A9P/5+vr//P37//3+/f//////////////////////////////////////////////
+        //////////////r8+v/7/fv/6+34/6+x9P8kJPX/AAD7/wAA/f8AAP3/AAD+/wAA/v8AAP7/AAD8/wQC
+        +f9lb/X/c4Pp/xUY3f8EBN7/Dg3g/yMi5f8xMuX/PT3o/zc35v8aGuj/Cgrp/wYF7v8GBPH/AQLe/wgJ
+        3//U5/f/3/j9/+D6/P/h+v7/4vv//+T6///i+f38vMPEmP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8AwMXGYsHx+//a9vv/4ff8/8z0+f/D8vr/w/L6/8Py
+        +v/D8vr/xPP7/8Xz+//F8/v/xfP7/8Xz+//G8vv/x/L6/8fz+v/H8/r/yfP6/8r0+//K8/v/yvT7/5u5
+        +P85Qvf/AAD7/wAA/v8AAP7/AAD+/wAA/v8BAfv/Skry/7O08//++/j//v79////////////////////
+        /////////////////////////////////////////////////////////////////////////v7+//f4
+        9v+srfH/Gxv2/wEA+f8AAP7/AAD+/wAA/v8AAP7/AAD9/wIB+f95h/P/eYfp/wIC3P8CAtn/Bwbi/w0O
+        5f8cGOj/HBzl/xER6f8ICOv/AwPs/wMB3P8DAdr/Njvk/+L29//g+fr/4fn9/+H6/v/h+v7/4vv//+T6
+        ///L2tzR////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wDn6OgaxPH59tb2+//d9/v/y/T6/8Ly+v/D8vr/w/L6/8Py+v/D8vr/xPP7/8Xz+//F8/v/xfP7/8by
+        +//H8vv/x/L6/8fz+v/H8/r/yfP6/8r0+//H8Pr/Ki/3/wAA+v8AAP3/AAD+/wAA/f8BAPv/Cgn3/3V2
+        7//09Pn//Pz7//z7+P/9/vz//P37//z9/P//////////////////////////////////////////////
+        ///+/v7/7u73/+jo9v/9/Pv//vz7//z9/P/9/f7//v38//n9+f/Q0vX/Zmfy/wAC+f8AAP3/AAD+/wAA
+        /v8AAP7/AAH8/xER+P9tefT/YXHn/wgE3v8BA9P/AgPU/wQE3P8GBuH/BAXg/wID3P8BAdL/AwDV/xYX
+        3P99jun/4/f6/9/5/f/i+fz/4fr+/+H6/v/h+v7/4/r//+X5/fn///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wC85uniy/L5/9L0+v/G8vr/wfL6/8Hy
+        +v/C8vr/wfL6/8Ly+v/D8vr/xPL6/8Xz+//F8/v/xvL8/8fx/P/H8vv/x/L7/8bz+v/F8Pn/Qk30/wEC
+        +P8AAP3/AAD+/wAA/v8AAPz/S0vz/8PC9f///v7///////39/P/MzPX/np3q/56g8/9nZ/L/ZGT0//f1
+        +P+7vPD/+Pf2/7+/8f/6+/j/ycry/7Gy8f/k5fX/+/z5//r69/+ztPD/e3zv/2Nj9P/8+/j/vbz0/9PQ
+        9f8vL+v/6ery/5uc8v92d/L//f38/8nJ8/8UFfb/AAH6/wAA/v8AAP7/AAD+/wAA/f8UF/j/uc74/7vT
+        8P9ygOT/DA7Z/wAA0/8AAM//AADO/xUY0v9zfeH/2PP4/9/5+f/e+/v/4vj9/+D5/P/h+v7/4fr+/+H6
+        /v/j+f7/4/n+/8DFxpT///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////ALDFyKLG8fn/yvP6/8bx+v/B8vz/wfL6/8Hy+v/B8vr/w/L6/8Py+v/E8vr/xfP7/8Xz
+        +//G8vv/xfL7/8fy+//J8vv/xvH5/4ql9f8BAfn/AAH6/wAA/f8AAP7/AQH6/x8e9P/h4Pb//Pz7///+
+        /v///////v79/9LS9/8+Pe7/YGDx/5OU9P92d/D/Wlvt/5aY8f+2tvH/i4vv//Pz8/9vce3/sK/1/3R0
+        8P/R0fT/YWPt/8bI8P+Mju//MC3v//Tz9v/NzfT/4N/1/1BS7v+/v/T/5+r2/5uc8//9/f3//f38/6Ch
+        9P8pKvX/AAD8/wAA/v8AAP7/AAD+/wAA/P8bHfb/z+n7/9v4/f/U7vn/scjm/5yt5f+pvOX/2vP7/974
+        /v/f+f3/3/r9/9/6/v/h+f//4fn//+H5/v/h+v7/4fr+/+H6/v/h+v7/4/v/9f///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AvsTFY8Lx+f/E8fn/w/L6/8Hy
+        /P/B8vr/wfL6/8Hy+v/D8vr/w/L6/8Py+v/E8/v/xfP7/8Xz+//F8/v/x/L7/8fy+/+Xtfj/ND34/wAA
+        /P8AAP7/AAD9/wAA/f8xM/T/4eL1//39+//+/v3////////////+/v7//Pz8/+/x9f9wcO//g4Pv/4B/
+        8P/9+/n/+vz4/8jI9v+Jie//+/z1/42N8P/6+/r/2tr3/5eV+P+ysfT/R0fs/1BS7P+Rj/D/+/z5/8XF
+        8v9nZ+3/pKXt/2do7P/i4/T/1tf1//z9/P/+//7/+vv6/7e58/8BAvn/AAD9/wAA/f8AAP7/AAD9/wAA
+        /P99jfj/1fH7/9v4/v/c9/v/2vf8/9z3+//d9/3/3ff9/9/5///f+f7/3/r+/+D5///h+f//4fn+/+H6
+        /v/h+v7/4fr+/+H6/v/i+//71dbWNv///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wDn5+gawPH5+8Dx+P/A8fr/wPH7/8Hy+v/B8vr/wfL6/8Py+v/D8vr/w/L6/8Py
+        +v/E8/v/xfP7/8Xz+//F8/v/xvL7/0hV9/8BAfr/AAD9/wAA/v8AAPz/IB73/+3t+f/+/v3//v7+////
+        /v/////////////////+/v3//v37/0VG8f9ube3/NTTv/9/i9//9/f3//P38/7Gy9v9UVO7/dXXv/7u6
+        9P/b2vT/vbz2//3+/v+7vO//t7fs/1ha7f9dXPD/09Py/5WW8P9nZe7/lZbk//T1+f/9/fz//v//////
+        /v/+/v7//f38/4uL8/8CA/j/AAD8/wAA/v8AAP7/AAD9/ycr9/+Tpfj/3Pn9/9v4/v/b+P3/3Pf9/974
+        /v/e+P7/3/n//975///f+f//3/r+/+D5/v/h+f7/4fr+/+H6/v/h+v7/4fr+/+L7//+/xMaU////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wC44evnwPD4/7zw
+        +v/A8fn/wPH5/8Hy+v/B8vr/wfL6/8Ly+v/D8vr/w/L6/8Py+v/E8/v/xPP7/8Pv+v82PvT/AAD9/wAA
+        /v8AAP7/AAD+/4qL9f/09Pr/////////////////////////////////////////////////z8/0/97f
+        +P/9/v3/+Pn4///+/v/////////////////+/f3//v7+/////////////v7+//f4+P+4t/L/mZrr/2lo
+        8f/9/Pr//f38/9LS8/+en+///fz6///+/v///////////////////////v7+//38+f88O/b/AAD7/wAA
+        /v8AAP7/AAD9/wUF+v+4zPn/3Pn+/9z5/v/c+f7/3vj+/974/v/f+P7/3/j+/9/5///f+f//3/r9/+D5
+        /v/h+P//4fn+/+H6/v/h+v7/4fr+/+D4/frs7OwU////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AK3M0L688Pr/v/H4/8Dx+f/A8fn/wPH5/8Hy+v/B8vr/wvL6/8Py
+        +v/D8vr/w/L6/8Py+v/E8/v/do71/wAA/P8AAP7/AAD+/wAA+v8VFfT/6+z3//3+/f//////////////
+        ///////////////////////////////////9/v3//v7+//7+/v/+/vz/////////////////////////
+        /////v/////////////+//7//v39//79/f/9/v7//v78//7+/f/+/v7//v7+//z+/f/+/v7////+////
+        //////////////////////7//v7+/6am9v8pKvb/AAH6/wAA/v8AAP7/AAD9/zU49//Y9fv/3Pn+/9z5
+        /v/d+P7/3vj+/974/v/e+P7/3/n//9/5///f+v3/3/n9/+H5///h+f//4fr+/+H6/v/h+v7/3/n8/8vN
+        zUj///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8ArMDCmLvw
+        +v3A8fj/wPH5/8Dx+f/A8fn/wfL6/8Hy+v/C8vr/w/L6/8Py+v/D8vr/w/L6/7zn+f8ND/j/AAD+/wAA
+        /f8AAP3/AwT4/7S08v/9/P3//v7+////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////9Pb5/4mM
+        9P8AAPz/AAD+/wAA/v8AAP7/AQH7/4SV9f/b+P3/3Pn+/9z5/v/c+P7/3vj+/974/v/e+P7/3/n//9/6
+        /v/f+v7/4Pn+/+H4///h+v7/4fr+/+H6/v/h+f7/u8HBgPn5+Qb///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wC1v8FxvOnx8L3w+v/A8fn/wPH5/8Dx+f/B8vr/wfL6/8Ly
+        +v/D8vr/w/L6/8Py+v/D8vr/iqn3/wAA+v8AAP7/AAD9/wAB+v9vcfL//fv5//7+/v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////+/v7/4uP5/wcH+P8AAP7/AAD+/wAA/v8AAPz/FRb0/9Xw
+        /P/c+f7/3Pn+/9z5/v/d+P7/3ff9/974/v/f+f//3vn+/975/f/f+v7/4Pj//+H6/v/h+v7/4fr+/+D5
+        /v+5w8Oa5+fnG////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AMjM
+        zEiwz9TIvfH5/77x+/+/8fn/wPH5/7/w+f/A8fn/wfL6/8Hy+v/C8vr/w/L6/4Wj9v8kKvj/AAD+/wAA
+        /v8AAPz/W1z3//z9/P//////////////////////////////////////////////////////////////
+        /////////v7+//7+/v/+/f3/19n0/3Bw8/9CQvL/Hxzx/05O7v+wsvH/5+j2//79/f///v7//f7+//3+
+        /v/5+v3/5ub4/+Lg9f/z8vn//v7+//39/f/Bw/X/eHnz/zUx8/8oJ/X/UVPx/5KS8f/6+/r//v79//7+
+        /v/9/f3/9PP5/yQj9f8AAP3/AAD+/wAA/v8AAP3/a3j4/9Lt+//c+f7/3Pn+/9z5/v/c+f7/3fj+/974
+        /v/e+P7/3/n+/9/6/v/f+v7/4Pn//+H5/v/h+v7/4fn+/93y9fG9wcFy////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A4+PjIK3BxKC98Pr/vvH7/77x+v+/8fn/wPH5/8Dx
+        +f/A8fr/wfL6/8Hy+v/C8vr/V2r3/wIC+v8AAP7/AAD+/ygn9/+lpff////+////////////////////
+        ///////////////////////////////////////////////////7/Pv/2dv1/0RF8f8CBPf/BQX4/z49
+        9P/h4fT//f39///+/v///////f37//v6+P+srvH/YmPx/xYW8v9CQvH/wsLz//Dw9//o6fX/cXLx/wYH
+        +f8AAP3/AAD+/wAA/v8AAP7/AAD7/zo78f/V1vP//f39///////9/fz/qaz0/wAA/f8AAP7/AAD+/wAA
+        /f84P/j/pbr5/9v4/f/c+f7/3Pn+/9z5/v/d+P7/3vj+/974/v/f+f//3/n+/9/6/v/g+v7/4fn+/+H5
+        ///h+f7/4fn9/rrDxJn///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD5+fkGsr/Bf7/v+v+88Pz/vvH7/77x+//A8fn/wPH5/7/w+v/A8fr/wfL6/8Hy+v8uNfj/AAD8/wAA
+        /v8AAP7/aGj2/+Xl+P////3///////////////////////////////////////////////////////7+
+        /v/9/fz//P37/4qL8v8iI/X/AQD8/wIB+v+Af/L/5+b2//39+////v7//f38//z9/P/GxvP/R0bz/wID
+        9/8nJ/T/zc/1//r9+v/6+/j/ysv0/xMT9/8BAfv/AAD9/wAA/v8AAP7/AAD+/wAA/v8AAP3/AAD7/xUV
+        9//m5vf//f38//3+/f/6+/v/Gxv4/wAA/P8AAP7/AAD+/woM+f91hPn/2vf8/9v4/f/c+f7/3Pn+/934
+        /v/e+P7/3vj+/974/v/f+f//3/n+/+D6/v/h+f7/4fn//+H5/v/g+v3/wM3OuP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wC9xMVawO76/73w+v++8fv/vvH7/8Dx
+        +f/A8fn/wfH5/8Hx+v/B8vv/vev4/wgJ+/8AAP7/AAD+/wAA/v+kpff//f38////////////////////
+        /////////////////////////////////////v7//v79//X29/9/f/H/BAT5/wAA+/8AAP3/UVLy//b2
+        +P/8/Pv//v7+//7+/v/r7Pf/mZrz/wMD+f8CAfn/VVf0/83P9f/+/v3//P79/5yc9P8oKPb/AAD+/wAA
+        /v8AAP3/AAD9/wAA/f8AAP3/AAD+/wAA/v8AAP3/AgH5/5CQ9f/6+fv///////////9WV/f/AAD8/wAA
+        /v8AAP7/AAD8/0tU+f/b+P3/2/j9/9z5/v/b+f7/3Pn+/9z5/v/d+P7/3vj+/9/5///f+f//3/r+/9/5
+        /v/h+f//4fn//+H5/f/W6u3p////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////ANzd3ii77/n/vfD6/73w+v++8fv/vvH7/77x+v/A8fj/wPH4/8Hx+f9GUvf/AAD7/wAA
+        /v8AAPz/KSn0//z8/P///v7//////////////////////////////////////////////////f7+/+Dg
+        9/9ubfP/AQD7/wAA/f8BAPz/HBz5/1FR+P9SUff/UVH2/1FS9v8bGvn/AQH7/wAA+/8AAPz/Ozr2/1FR
+        +P9RUfX/UVH2/zU09v8BAfr/AAD8/wAA/f8AAPz/AAD8/1dY9P/BwfT//f37//v+/P/8/fv/5eb3/xYY
+        9f8AAP7/KSr3/6ip+P///////////7/A9/9CQvf/AAD9/wAA/v8AAP3/BAT7/8zm+v/b+P3/2/j9/9v4
+        /f/c+f7/3Pn+/934/v/e+P7/3vj+/9/5///f+f//3/n+/+H6/v/f+f//4Pn+/+H6/v/HyclU////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A+fn5Br/u+fG98Pr/vfD6/73w
+        +v++8fv/vvH6/7/x+P/A8fj/wez3/w0Q9/8AAPz/AAD+/wAA/f+AgfT//v79////////////////////
+        ///////////////////////////////////9/Pv/YWL0/wYG9/8AAP7/AAD+/yYn9v+hovT//f37//39
+        +//8/fv/3t73/wcI9v8AAP7/AAD9/x0c+P/19vj//f37//38+v/z8vf/IyX0/wAB+v8AAP7/AAD9/wwM
+        9f+ChO//9/f5//7+/v/////////////////9/f3/m5vz/wAA/f8REPj/j475////////////7O35/3Bx
+        9v8AAP3/AAD+/wAA/v8AAP7/lKX4/9v4/f/b+P3/2/j9/9z5/v/c+f7/3fj+/974/v/e+P7/3vj+/9/5
+        ///f+f7/4fr+/9/5///f+f7/4Pr+/8PO0LD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8AscrOtL3w+v+98Pr/vfD6/77x+/++8fv/vvH7/8Dx+/+bt/b/AQD8/wAA
+        /f8AAP7/AQH7/9LU9P/+/v3////////////////////////////////////////////+/v7//fz5/8XF
+        8v8GBvn/AAD9/wAA/v8BAfr/jo31//b1+f///v////7//+3u+f96e/b/AAD8/wAA/v8HCPf/c3X0//38
+        /P/+/v7/+/n5/6Ce9v8BAPz/AAD9/wAA/P8ZGff/1NT0//3++//+/v7///////////////////////7+
+        /v/j4/n/BQP4/wcH+f+Bgvr////////////9/fz/mpr4/wEA+/8AAP7/AAD+/wAA/v9WYPb/2vf9/9z3
+        /f/c9/3/3Pn+/9z5/v/c+f7/3fj+/974/v/e+P7/3vj+/9/5///f+f//4Pr+/+H5/v/h+f//3vX79vLy
+        8g3///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wCwxcihvfD6/73w
+        +v+98Pr/vvH7/77x+/++8fv/w/L6/2t99v8AAP3/AAD+/wAA/f8lJff/+fr5//7+/v//////////////
+        /////////////////////////v7+//39/f/j4vb/Ghv0/wAB+v8AAP3/AAD9/w4N9v/n5/j//fz8//7+
+        ///9/v3/kpT2/xoa+P8AAP3/AAD9/01P9v/MzPj//P7+//7+/v+7uvX/PTz1/wAA/v8AAP3/Li73/6eo
+        9f/8/Pr//f39//////////////////////////////////Dw+f8LDfT/BQX5/35/+f////////////7+
+        /v+/wPj/AQH7/wAA/v8AAP7/AAD9/yIl9//W9f3/2vf8/9v4/f/b+P3/3Pn+/9z5/v/c+P7/3vj+/974
+        /v/d9/3/3vj+/9/5///f+v7/4Pn+/+H5///f+fz/w8XFY////wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AOfo6Bq+8Pr4vfD6/73w+v+98Pr/vfD6/77x+v/C8fn/Ghv3/wAA
+        /f8AAP7/AQD8/5+g8//////////////////////////////////////////////////9/v3/w8L2/wIA
+        +/8AAP3/AAD+/wAA/f86PPL/+vn4//7+/v/+/v7//f38/5uc8v8AAPv/AAD9/wAA/f8NDfb/7O36//3+
+        /v/8/v3/5ub4/wwL+f8AAP3/AQH7/3d29P/9/fz//v7+////////////////////////////////////
+        /////v7/4uP6/wMC+f8PD/b/jIz4/////////////v7+//X3+f8LC/n/AAD+/wAA/v8AAP7/AQH5/5+1
+        +f/X9/3/2ff9/9v4/f/b+P3/2/n+/9v5/v/c+f7/3Pn+/974/v/e+P7/3/n//975///f+f7/3/r+/9/3
+        /P/Q3+LT////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AK3a
+        3dO78Pn/vPD4/73w+v+98Pr/vvH7/7zo+f8EAvj/AAD+/wAA/v8AAPv/0M/1////////////////////
+        //////////////////////////7+/+rr+f9wcvb/AAD+/wAA/v8AAP3/AQH7/8fI9v/+/v7///////3+
+        /f/T1PP/EA32/wAA/P8AAP3/AAD7/4CB8v/+/v3//v7+//38+f9XWfL/AAD9/wAA/f9eX/P/+/v6////
+        //////////////////////////////////////////////7+/f/NyvX/AAD9/x4e9/+cnfn/////////
+        ///+/v7//P36/y4w9/8AAP3/AAD+/wAA/f8CAPr/eov2/9f3/f/Z9/3/2/j9/9r3/P/c+P3/2/j9/9z5
+        /v/c+f7/3vj+/974/v/g+P7/3/n//9/5/v/f+v7/4Pr+/976/frs7OwU////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8As8LDgbvw+P+97/n/vfD6/73w+v+98Pr/q9f5/wEB
+        +v8AAP7/AAD+/wUF+//v7/j//////////////////////////////////////////////v3/oqP0/yUn
+        9f8AAP3/AAD+/wAB+/8qK/f/+/z4//7+/v//////+/v8/zU18/8AAP3/AAD+/wEA/P8cHPX/8fH2//7+
+        /f/9/Pz/vbvy/wME9/8AAPz/Hh72//b2+v/+/v3/////////////////////////////////////////
+        /////////f79/6Ok9v8AAP7/ODn3/7e4+P///////////////v/+/v3/W1v3/wAA+v8AAP7/AAD+/wAA
+        +/9YY/f/1/f9/9n3/f/a+P3/2/j9/9v4/f/b+P3/3Pn+/9z5/v/d+P7/3vj+/974/v/f+f//3/n+/9/5
+        /v/g+f7/3/n9/9HT0zr///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wC0w8JyvO/5/73v+f+98Pr/vfD6/73w+v+hyfn/AgH5/wAA/f8AAP7/Dw75//v8+v//////////////
+        //////////////////////////////3+/P9eXfb/AQH5/wAA/f8AAP7/AgH7/2hn9v/8/Pv///79//39
+        /f/Cwvf/AgD7/wAA/v8AAP7/AAD8/5CS8//8/Pv//v7+//z8+v82NPX/AQH6/woK9/95efT//f7+///+
+        ///////////////////////////////////////////////////+/v3/bm30/wAA/v9cXfb/29z4////
+        ///////////+///+/v98e/T/AwH6/wAA/v8AAP7/AAD8/z1F9//W9/z/2Pf8/9r4/f/a+P3/2/j9/9v4
+        /f/c+f7/3Pn+/9z4/v/d+P7/3vj+/974/v/f+f//3/n+/976/v/g+f7/ycvLSv///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wC87/j4u+/4/73w+v+98Pr/vvD6/5O4
+        9/8AAfv/AAD+/wAA/v8jI/r//f78///////////////////////////////////////8/fz/u7vy/wEB
+        +v8AAP3/AAD+/wAA/P9VVvb/09P2////////////sLH4/zIy9/8AAP3/AAD+/wAA/P8/Pvj//v37////
+        ///+/f3/m5v4/wEA/P8AAP3/pKX1//39+//+/v//////////////////////////////////////////
+        /////////////+fm+v8DAvn/AQL6/7++9f/9/fz//////////////////////6em9v8DAfv/AAD9/wAA
+        /v8AAP7/EBH6/9j3/P/Z9/z/2vj9/9r4/f/a+P3/2/j9/9v4/f/c+f7/3Pn+/9z5/v/c+f7/3vj+/974
+        /v/e+P7/4vn//975//+5wcKR7OzsFP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////ALDS2dC78Pn/u/D6/7zw+v+98Pr/j7b5/wAB+/8AAP3/AAD+/ygo+P/8/vz/////////
+        //////////////////////////////z8+f9MTfP/AAD8/wAA/f8AAP7/AAH7/4aH9v/5+fr///////7+
+        /f9zc/j/BAT6/wAA/v8AAP7/BAP5/3V09v/9/v3//////+Hh+P9kY/f/AAD8/woK+P/s7fn//v7+////
+        ///////////////////////////////////////////////////+/v3/ubj4/wIB+v8QEfT/8/L4//39
+        /P//////////////////////rq/4/wMA+v8AAP7/AAD+/wAA/v8JC/z/2Pf8/9n3/P/Z9/z/2vj9/9r4
+        /f/b+P3/2/j9/9v4/f/c+f7/3Pn+/9z5/v/e+P7/3ff9/933/f/e+f//3vn//8HMzrnS09M6////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8ArcfMubvv+f+78Pr/u/D6/7zw
+        +v+Ptvr/AAD9/wAA/f8AAP7/Kir4//z//P//////////////////////////////////////3t72/wcG
+        9v8AAP7/AAD+/wAA/v8AAfv/trb5//7+/v///////P36/zo6+f8AAP7/AAD+/wAA/v8pKff/qKj3////
+        ////////raz3/y8u+f8AAvr/eHn0//7+/v//////////////////////////////////////////////
+        //////////////j5+v+Ghvb/AAD8/4KC8v/9/v3///////////////////////////+xs/j/AwD7/wAA
+        /v8AAP7/AAD+/wkJ/f/X9/z/2Pf8/9n3/P/Z9/z/2vj9/9v4/f/b+P3/2/j9/9z5/v/c+f7/3Pn+/974
+        /v/e+P7/3vj+/935///e+f//wtDSwc3Pz0L///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wCtxMqwuu74/7vw+v+78Pr/vPD6/5C3+f8AAfr/AAD9/wAA/v8mJ/n//Pz5////
+        //////////////////////////7+//7+/f+GhfL/AQD6/wAA/v8AAP7/AAD+/wAB+v/g3/r//v7+////
+        ///z9Pn/DAz6/wAA/v8AAP7/AAD+/1tc9v/a2vf///////////98e/f/Bwb5/xQT9v/r7PX//f7+//z9
+        /f/9/fz//P38////////////////////////////////////////////zM32/09P9P8hIfP/8PL2//7+
+        /f///////////////////////////62s+f8BAfn/AAD9/wAA/v8AAP7/Cw37/9f3/f/Y9/z/2ff8/9n3
+        /P/a9/z/2/j9/9v4/f/b+P3/2/j9/9z5/v/c+f7/3vj+/974/v/e+P7/3/n//+D5///T6u3pvsLDaf//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////ALG/wHi47vj4uu76/7vv
+        +v+78Pr/msT3/wMB+/8AAP7/AAD+/xYW+v/+/vr////////////////////////////+/v7/6+35/wIC
+        /P8AAP7/AAD+/wAA/v8AAP7/SUr1//39/P/+/v7//f38/19f9P8AAPz/AAD+/wAA/v8AAfv/t7f3//38
+        /P/+/v3//f36/yIi9v8HB/f/6ur5//7+/v94ePT/Cwv4/wAA/f8HB/b/2Nf4//7+/v//////////////
+        //////////////v7+f9HSPb/Li/1//v8+///////////////////////////////////////i4v3/wEB
+        +v8AAPz/AwP3/wMC9v8nLPf/0/b8/9T2/P/Y9/z/2ff8/9n3+//Z9/z/2vj9/9v4/f/b+P3/2/j9/9z5
+        /v/c+f7/3fj+/974/v/e+P7/3vj+/9/5//+9ysyx////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8Av8XGWLHV3te67vr/uu76/7vv+v+izvj/AgH6/wEB+f8AAfv/DAv5//j4
+        +f////////////////////////////7+/f/Ky/f/AAD9/wAA/v8AAP7/AAD9/wEB/P9+f/b//f79//7+
+        /f/19vj/GRn3/wAA/P8AAP7/AAD9/wEB+P/h4vr//f7+//7+/f/j5/b/BAP6/zQ19//8/fz//v7+/zc2
+        9v8BAPv/AAD9/wEA/P+ZmPf///79///////////////////+/////v7/5eX1/xob9P+HiPX//f39////
+        ///////////////////////////+//7+/f9vb/T/AwXu/wsKfP8NC2//BQbr/0pV9f/S9vz/0/b8/9X2
+        /P/Y9/z/2Pf8/9n3/P/a+P3/2vj9/9v4/f/b+P3/3Pn+/9z5/v/c+P7/3fj+/974/v/e+P7/3vj+/8jZ
+        3dH///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDP0tM6qsbNurru
+        +v+67vr/u+/6/6/f+P8BAPv/CQmu/wwKYf8NDI7/5ub2/////////////////////////////f7+/6qr
+        +f8AAPz/AAD+/wAA/v8AAP3/AQL4/7Ky9////////v79/8HE9f8AAPv/AAD+/wAA/v8AAP3/HB31//v8
+        /P///////v7+/56d8/8BAfv/aGj3//z9+/////7/MC/4/wEA/P8AAP7/AAD8/5KS9////v3/////////
+        /////////v/+//z9+/9ZWfL/aGn1/+Lj+P/////////////////////////////////+//7//f78/01N
+        9f8DAfj/CwuY/wwMd/8BAvn/YGz4/9L2/P/S9vz/1Pb8/9f3/P/X9/z/1/f8/9r4/f/a+P3/2/j9/9v4
+        /f/b+P3/2/n+/9z5/v/c+f7/3vj+/974/v/d9/3/yt7h2v///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AM/S0jqpxsy6uu76/7ru+v+67vr/uev5/wkI9v8JCND/DAqw/wkG
+        4f++vvT////////////////////////////9/fz/jo/3/wAA/P8AAP7/AAD+/wAA/f8CAvf/4eP4////
+        ///+/v7/fn72/wEA/P8AAP7/AAD+/wAA/v9gX/X//v79///////9/fz/VVf0/x0e9/+bnPf///78///+
+        /v9hYfT/AgP4/wAB+f8BAvj/w8P2//7+/f/////////////////9/v3/r67y/wME+P/Oz/f//v7+////
+        //////////////////////////////7+/v/7/Pv/HyD1/wIC+f8EAvn/CwnS/wMA+v+Gmvj/0vb8/9L2
+        /P/S9vz/1/f9/9f3/f/Y9vz/2ff8/9r4/f/b+P3/2/j9/933/f/b+P3/3Pn+/9z5/v/c+f7/3vj+/974
+        /v/f9/z5////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A+fn5BrG+
+        wIC67vr/uu76/7ru+v+67vn/S1z2/wUG7/8DA/j/AQL6/05O8//9/vz///7+/////////////////9zc
+        +/9eXfj/AAD9/wAA/v8AAP7/AAD9/0NC9f/9/fr////+//j3/P8LDPf/AAD7/wAA/v8AAP7/AAD8/9XZ
+        9f/+/v7//////+Hh+v8CAvj/enn3//T0+/////////////3+/f/7/Pv/+/37//v8+///////////////
+        /////////v38/6qq9v9qaPD/+/n5//7+/f///////////////////////////////////////v7+/9XU
+        +f8CAfr/BAT5/woIxv8KCpr/Cgn3/8rs+f/S9vz/0vb8/9L1/P/X9/3/1/f9/9j2/P/Z9/z/2ff8/9r4
+        /f/a+P3/2/j9/9v4/f/b+P3/3Pn+/9z5/v/c+f7/3fj+/933/f/CxcVk////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8Au8PEYLru+v+67vr/uu76/7ru+f90kPf/AgP4/woK
+        if8NC2D/GBbX//L09v/+/v7////////////+////xMb4/0dI+f8AAP3/AAD+/wAA/v8AAP3/ZGL0//z9
+        /f/+/vz/39/4/wEC9/8AAP3/AAD+/wAA/f8REvj/+Pj6//7+/v/+/v3/t7j1/wAB+v+hovb//P38////
+        /////////v/+//3//v/+//7//f/+/////////////////////f/T0/f/hYTx//f4+v/+/f3//v7+////
+        ///////////////////////////////////+/v7/sbL4/wUF9v8ODl7/DAuB/wsKu/8zOvX/0PT7/9H1
+        +//R9fz/1Pb9/9f3/f/X9/3/2Pb8/9n3/P/Z9/z/2ff8/9r4/f/b+P3/2/j9/9v4/f/b+P3/2/n+/9z5
+        /v/c+f7/2/j9/7/JyaT///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wDMz9BAuu76/7vu+v+67vr/uu76/6PP9f8DAfn/CgjQ/woI6P8NDIj/trn0//3+/f//////////////
+        //+wsvr/MzT7/wAA/v8AAP7/AAD+/wAA/f+AgPT//P78//3+/f/DxPf/AAD8/wAA/f8AAP7/AAD8/zc2
+        9f/+/v3////9//3+/f+VlPP/AAD6/8nL9v/9/vz/////////////////////////////////////////
+        /////////v79/6+v8f+5ufL//Pz7//7+/f////////////////////////////////////////////v7
+        /P+Li/f/BwnS/w0MZ/8NC7P/CAfI/2p59f/R9fv/0fX7/9L1+//X9/3/1/f9/9f3/f/X9/3/1/f8/9n3
+        /P/Z9/z/2ff8/9r4/f/a+P3/2/j9/9v4/f/c+f7/3Pn+/9z5/v/c+P3/v83Ptv///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AOLj4yC57/r/uO/6/7ru+v+67vr/uez6/yEm
+        9/8HB6z/DAxi/wkIw/9iYPT//v79/////////////////6Kj+P8kJPr/AAD+/wAA/v8AAP7/AAD9/5eY
+        9f/8/v3//P78/6qr9/8AAP7/AAD+/wAA/v8AAP3/WFn1/////v////7//f78/3d29/8EBfj/7e76//7+
+        /v/////////////////////////////////////////////////7/fr/3d30//v6+v//////////////
+        ////////////////////////////////////////3d33/19g9/8MDH3/DAqT/wwMl/8EBcT/pb33/9H1
+        +//S9fv/1fb8/9f3/f/X9/3/1/f9/9f3/f/X9/z/2fb8/9n3/P/Z9/z/2vj9/9r4/f/b+P3/2/f9/9z5
+        /v/c+f7/3Pn+/9z4/f/L3uLT////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////ALfX4NO57vn/ue76/7ru+v+67vr/ncP2/wAA+/8BAfr/Dwp1/wsLtP/IyPX//f37////
+        ////////iYj4/wwM+/8AAP7/AAD+/wAA/v8AAP7/ubr0//3+/f/6+vv/goH4/wAA/v8AAP7/AAD+/wAA
+        /P+Sk/X//v/+/////v/9/vz/UFH2/2xu8v/9/v7/////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////+///+
+        //95evX/Cgrp/w4NU/8NCq3/Bgbp/zA39//U9/3/1ff9/9X3/f/W9v3/1Pb8/9X2/P/V9vz/0/X8/9D1
+        /f/Q9f3/0/X7/9b2+//Z9/z/2vj9/9v4/f/b9/3/2/j9/9v4/f/c+f7/3fj9/9j4/v/V1dY2////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AuMLFcbzu9v+37vn/uu35/7ru
+        +v+67fn/FRr3/wYIuf8PDoD/DwqS/5CQ8P/6+/z///////////+AgPj/BgX6/wAA/v8AAP7/AAD+/wAA
+        /v/HyvT//v7+/+/w+f9wcfj/AAD+/wAA/v8AAP7/AAD8/6io9v/+//7///////3+/f9LSvb/rKvz//7+
+        /v//////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////v///v78/0JC9f8IB7z/Dg11/xEPif8FBcf/WGX4/9T2
+        /P/V9/3/0/b8/9H1+//O9Pv/z/T9/8/0/P/P9Pz/z/X9/9D1/f/Q9fz/0fX7/9j3/P/Z9/z/2vj9/9r4
+        /f/b+P3/2/j9/9z5/v/b+f7/3/j+/7zCw3T///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wDV1tc0tev7/7nv9/+67vj/uu76/7ru+v89SvX/CQiu/wwKcP8KCX3/U1Pf/8/N
+        9//+/v3//////3h39/8CAfv/AAD+/wAA/v8AAP7/AAD9/9HR9//9/v7/4eP5/2Nk+P8AAP7/AAD+/wAA
+        /v8AAPz/u7v0//7+//////7//f78/01M8v/h4fb//f7+////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////7+
+        /f/s6/j/Dg7Y/wsKwP8NC2T/DA1B/x4g6f+EmPf/1Pb8/9T2/P/Q9Pz/z/T7/8/1+//O9f3/zvT8/8/0
+        /P/P9Pz/0PX9/9D1/f/Q9fz/1fX7/9n3/P/Z9/z/2vj9/9v4/f/b+P3/2/j9/9v5/v/e+P7/u8XFk///
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////APPz8wy14evjtu37/7fu
+        +v+57vr/uu76/2Z+9/8MDPf/AgH6/wQD+f8YGMr/i4zq//39/P//////dXT3/wAA+/8AAP7/AAD+/wAA
+        /v8AAP3/2Nn3//3+/P/W1vr/WFf4/wAA/v8AAP7/AAD+/wAA/P/Ozvf///7+/////v/+/vz/aGny//r8
+        +P/+/v7/////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////7//P37/3R29P8JCbD/DgyM/wsLyv8NDMn/SFP3/7HN
+        +f/U9vz/0/X8/871/P/O9Pz/z/T8/8/1/f/O9Pz/zvT8/8/0/P/Q9f3/0PX9/9D1/P/R9fv/2Pf8/9n3
+        /P/a+P3/2/j9/9v4/f/b+P3/2/j9/9z4/v+/zs+2////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AM3Q0UG37fj/uO75/7nv+v+57/r/tun5/2V/9v8ICMD/Bwff/wEB
+        +v8GBvb/0tP2//z9+//Jyfb/oJ72/6Cf+P+gn/j/oJ/4/5+e9//x8vf//f38/8XF+P9GRff/AAD+/wAA
+        /v8AAP7/AAD7/+Pj9/////////////7+/v/x8vb//f7+///+////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////v7+//v8
+        +v8/QfH/BgXs/wgIwP8JCdf/DAuZ/wIC+f+xzvn/0fb8/9L1/P/N9fv/yvT8/8v0/P/O9Pz/zfT8/831
+        /f/O9f3/zvT8/8/0/P/P9Pz/z/X8/8/1/P/X9vz/2ff7/9n3+//a+P3/2vj9/9v4/f/a9/3/2/n8/8vf
+        4dT///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A5+foGrft
+        +Pu47fn/ue/6/7nv+v+57vr/mMD4/wIA+v8AAP7/BwbR/w0Nif80NfP/9vX4//7+/v//////////////
+        ////////////////////////vr76/z8/+P8AAP7/AAD+/wAA/v8AAPv/6un2////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////+/v7/xMX4/wAB+f8IBtz/DQ1l/w0MeP8GBuz/Mzr1/8/0
+        +//P9fz/zPX8/8v1/P/L9fz/y/X8/8v1/P/M9fz/zvX9/871/f/P9Pz/z/T8/8/0/P/O9Pz/0PX9/9b3
+        /P/Y9/z/2ff7/9r4/f/a+P3/2vj9/9r3/f/b+Pz/3vf79f///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8AsNXd1rjt+P+47vn/ue/6/7nu+v+57Pn/LDX0/wQC
+        +v8NDVz/DQyL/w0Nnv9vb/H//P37//7+/f////////////////////////////////+4uPr/Ojn5/wAA
+        /v8AAP7/AAD+/wIB+//t7vj/////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////+Hh
+        9/9oaPP/CwjB/wgJz/8LCpf/BgfB/wcH9/+lw/f/yvT7/8r0+//L9fz/y/X8/8v1/P/L9fz/y/X8/8v0
+        /P/O9f3/zvX9/871/f/O9Pz/z/T8/8/0/P/U9f3/1/f9/9f3/P/Y9/z/2Pf8/9r4/f/a+P3/2/f9/9v4
+        /P/b9/z48vLyDf///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wCrw8antu74/bju+f+57/r/ue76/7ru+v+ZwPf/Bgf4/wkK3P8LCn3/Cgqx/wQE9v/Mzfb//fz8////
+        /f///////////////////////////7S0+/81Nfn/AAD+/wAA/v8AAP7/AwL7/+/x+v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////+/v/9/vz/f3/1/xMR6f8ODoL/DQtc/w8Mlf8JCcb/YW/0/8r0
+        +//K9Pv/yvT7/8r0+//L9fz/y/X8/8v1/P/L9fz/y/T8/830/P/N9Pz/zvX9/871/f/O9Pz/0fT8/9b3
+        /f/W9/3/1/f8/9f3/P/X9/z/2Pf8/9r4/f/b9/3/2/j8/9r3/P/m5+cb////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////ALvExF+w3OPfuO75/7ft+P+47vn/ue76/7ru
+        +v+46vn/Gx72/wIC+f8MDH7/DAuF/xIQrP9sa+P//P36//38+///////////////////////sbD6/zIx
+        +P8AAP7/AAD+/wAA/v8DAvv/8PD5////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////9/v3/7+/3/z4+
+        8v8GBs//DAua/xEPZ/8NC7X/Cgrb/1do9//K9Pv/yvT7/8r0+//K9Pv/yvT7/8r0+//L9fz/y/X8/830
+        +//P9Pv/0fX7/9T2/P/V9/3/1ff9/9f3/f/X9/3/2Pj+/9f3/f/X9/z/1/f8/9n3/P/Z9/z/2ff8/9r3
+        /P/Y+Pz/3ff9/9HS0zr///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A1tjYMKrFybC57/n/uO75/7ju+f+47vn/ue76/7ru+v9hd/f/EBDp/wsKmv8FBfX/CgmZ/w0M
+        4/+6uvP//Pz6//7+/v///v7///////////+vr/n/MDD1/wAA+/8AAPv/AAD7/wIB+f/v7vn/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////f7+//T0+f86OvT/BATz/wwLj/8LCpr/Dg4v/wgJzP9ATff/pcb4/8r0
+        +//K9Pv/yvT7/8r0+//K9Pv/yvT7/8r0+//L9fz/z/P8/9X2+v/V9f3/1ff9/9X3/f/V9/3/1/f9/9f3
+        /f/X9/3/1/f9/9f3/P/X9/3/2ff8/9n3/P/Z9/z/2vf8/9j4/P/b9/3/0NLSO////wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD5+fkGsL7Agbnw+f+47vj/t+34/7ft
+        +P+57/r/ue76/6jU9/9PY/b/AgL5/w8Mav8GBtT/CAe2/woM9f+envL//P37//7+/v////////////X0
+        +v/m5/f/5OT5/+Tk+f/k5Pn/4uT3//r7+v/+/v//////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////r7Pn/goP0/wIB
+        +v8KC4r/Dgqt/w0Liv8KCdL/AwT3/5Wx+P/K8/v/yvT7/8r0+//J8/r/yvT7/8r0+//K9Pv/yvT7/8v0
+        +//S9vn/1fb6/9L1+//U9vz/1ff9/9X3/f/X9/3/1/f9/9f3/f/X9/z/1/f8/9f3/f/Z9/z/2ff8/9n3
+        /P/Z9vz/2Pj8/9v2/f/Q0tI7////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wC2wsFmvO73/7bv+P+57vj/uO75/7nv+v+57/r/ue76/6HK+P8FCPb/Bwbr/wMD
+        8P8JCZb/DgyI/wsNo/+xs/T/+Pn5/////v///////v79//39/P/9/v7//f7+//3+/v/9/f3//v7+////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////7+/v/8/fv//Pz7/2Rk9P8LCvn/AAH6/wgIvv8ICK//BwjM/wUF9f9JVvT/yfP6/8r0
+        +//K9Pv/y/T7/8r0+//K9Pv/y/T7/8v0+//L9Pv/zvT8/9P2/P/U9vz/1Pb8/9T2/P/V9/3/1ff9/9b3
+        /f/X9/3/1/f9/9f3/f/X9/3/1/f9/9f2///X9v3/2ff7/9n2+//X9/v/2vf+/9DS0jv///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AOzs7BS08Pn6uu75/7fv
+        +f+47vn/uO75/7ju+f+57/r/ue76/7ru+v+Eo/X/Bwjn/wgIz/8AAfz/AAD9/wAA/P8EBPn/fX3z//Hy
+        9v/9/Pz//v7+////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////9/Pv/2Nn1/yUn8/8AAP3/AAD9/wAA
+        /f8AAP7/AAD9/wIA+v8mK/f/x+/6/8r0+//K9Pv/yvT7/8z0/P/M9fv/z/X6/9D1+v/S9vj/0vT8/8/1
+        /P/Q9vv/0vb8/9L2/P/T9vz/1Pb8/9T2/P/V9/3/1ff9/9X3/f/X9/3/1/f9/9f3/f/X9/3/1vf9/9f3
+        /f/X9/z/2Pb8/9f3+//Z9vz/0NLSO////wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////ALru9vG47/n/uO/5/7ju+f+47vn/uu/5/7vw+v+78Pr/vO/6/7ru
+        +v9PYfX/CQr3/wAA/f8AAP7/AAD9/wAA/P8CAfz/ISD1/8vL9f/5+vv//v79//7//v//////////////
+        /////////////////////////////////////////////////////////////////////////v7+//7+
+        /P/9/vz//fz8/4yN9P8lJ/b/AQH5/wAA/f8AAP7/AAD+/wAA/f8AAfr/MDf2/5Wv9//O9f3/zvX9/871
+        /f/O9Pz/zvP7/871/P/O9fz/z/X8/9H0/P/R9fv/0vT6/9H1+//R9vz/0vb8/9P2/P/U9vz/1Pb8/9T2
+        /P/U9/3/1ff9/9X3/f/X9/3/1/f9/9f3/f/V9/z/1vf9/9f3/f/Y9vz/1/f7/9n2/P/Q0tI7////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8Ar8XHoLPu
+        +/+47/j/t+/5/7ru+v+78Pr/u/D6/7vw+v+98Pr/vfD5/67c9/9hefX/AAD8/wAA/v8AAP7/AAD+/wAA
+        /v8AAPz/FBP1/11d8f/t7vb//v7+////////////////////////////////////////////////////
+        ///////////////////////////////////+/v7/+vz6/7y98/9NTfL/AgL6/wAA/f8AAP7/AAD+/wAA
+        /v8AAP7/AAD8/wgK9/+lw/j/zPP7/871/f/O9f3/zvX9/8z1/P/O9Pz/z/T8/9D1/f/Q9f3/0PX7/9H1
+        +//Q9fv/0fX7/9L2/P/S9fz/0PT8/87z/P/P9Pz/0fX7/9H1+//R9Pz/0PT8/9D2+//V9vz/1vb8/9j4
+        /f/X9/z/1/f9/9f2/f/Y9/v/1Pb8/9DS0jv///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wDEyspRuO75/7bv+f+37/n/uu76/7ru+v+78Pr/u/D6/7vw
+        +P+98Pr/vO/5/7jo+P9NWfT/AgH6/wAA+/8AAP3/AAD+/wAA/f8AAPz/AAD8/xAP9/9gYfP/1NT1//f4
+        +f/9/fz//f79//7+/v///////////////////////////////////////v79//39+//9/fz/+fr4/6mq
+        8/9UVfP/AAD8/wAA/f8AAP3/AAD+/wAA/v8AAP7/AAD+/wAA/P8hJfb/osH3/8z0/P/N9Pz/zfT8/871
+        /f/O9f3/zvX9/9D0/P/P9Pv/z/T8/9D1/f/P9fz/z/X8/9L0/P/Q8/z/yfL8/8Dw+f+47vj/uO73/8j0
+        /P/L9Pv/yPP6/8bz+v/F8/r/xvH5/8nz+v/S9fz/1/f8/9j4/f/X9/3/1/b9/9f3/P/W9/3/0NLSO///
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wCqyMyzuO36/7nu+v+67vr/uu76/7ru+v+77/r/u/D6/73w+v+98Pr/vfD6/73w+v+98Pr/gJ72/ysy
+        9/8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8BAPv/Dg3z/yEh8/9AQvH/T072/1NT
+        9P9NTPP/NDTy/x4d9v8GBfb/AAD6/wAA/f8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAB
+        +P9kdfb/tNf5/8v1/P/L9fz/zPT8/830/P/N9Pz/zfT8/871/f/M9Pz/xvP6/8Dx+f+67/j/te74/7Pt
+        +P+07fn/tO34/7Tt+P+07vn/tO75/7Xu+P+/8Pn/yfP5/8Py/P/D8vr/wPH6/73w+v+88ff/uu75/7vu
+        +P/X9/3/1/f9/9f3/P/W9v3/1vb+/9b2/P/m5+cb////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AK3CxJK37fj/uO75/7ru+v+67vr/uu76/7ru
+        +v+78Pr/vfD6/73w+v+98Pr/vfD6/73w+v+98Pv/rdj4/zpF9v8BAfr/AQD7/wAA/v8AAP7/AAD+/wAA
+        /v8AAP7/AAD+/wAA/f8AAP3/AAD8/wAA/f8BAPz/AQD9/wEA/P8AAP3/AAD8/wAA/P8AAPz/AAD+/wAA
+        /v8AAP7/AAD+/wAA/v8AAP7/AAD7/wAA+v8dH/f/fJH3/8nw+v/K8/r/yvT6/8r1/P/K9Pv/yvP7/8Tx
+        +v/C8Pv/ue76/7bu+f+z7/n/tO/5/7Tv+f+07/n/tO/5/7Tv+f+07/n/tO/5/7Tv+f+07/n/uO/5/8Dw
+        +//E8fr/wfH5/77w+v+87/r/uu/6/7nv+f+27/j/tO/4/9L0/f/Z9v3/1vf9/9b3/f/b9f//1vf89vn5
+        +Qb///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8Aw8nKUrPt+P+37fj/uu76/7ru+v+67vr/uu76/7vv+v+78Pr/vPD6/73w+v+98Pr/vfD6/73w
+        +v++8fv/v+/5/5i89P8iKff/AgL7/wAA/f8AAP3/AAD9/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA
+        /v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/f8AAP3/AAD+/wAA/P8SFfj/UF70/8fr
+        +f/L8/v/yfP7/8fy+//D8fv/wPH6/7rv+P+27/f/tO74/7Pu+P+07vn/tO75/7Tv+f+07/n/tO/5/7Tv
+        +f+07/n/tO/5/7Tv+f+07/n/tO/5/7Tv+f+68Pn/wfD5/7/w+v+87/r/u+76/7ju+v+27/n/tu74/7Xu
+        +P+07/j/xvP7/9f2/f/W9v3/1ff9/9n1///O6e3j////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wDy8vINtu74+bbu+f+67vr/uu76/7ru
+        +v+67vr/uu76/7vw+v+78Pr/vPD6/73w+v+98Pr/vfD6/73w+v++8fn/wPH5/7Tg9/+FpPT/ICT0/wEB
+        +f8AAP3/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA/v8AAP7/AAD+/wAA
+        /v8AAP7/AAD8/wEB+f8NEPX/S1f0/63Q+P/E8Pv/wPH6/77x+v+47/f/tu/3/7Tv+P+y7/n/su/5/7Tv
+        +f+07vn/tO75/7Lv+f+z7/n/tO/5/7Tv+f+07/n/tO/5/7Tv+f+07/n/tO/5/7Tv+f+07/n/tO/5/7nv
+        +f++8Pn/u+75/7nu+f+17vj/tO74/7Pu+P+y7vr/su76/7Hu+v/D8fn/1vb8/9X2/f/V9vz/1/b8/73M
+        zrX///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wCt193Ztu75/7bu+f+27vn/uO76/7nu+f+57/n/uO75/7rv+f+78Pr/vfD6/73w
+        +v+77vr/uu76/7ru+v+77/r/u/D6/7vw+v+98Pr/vfD6/7zv+f+66/n/lbf2/3CL9P9GU/X/Lzb2/xMS
+        8/8JCvb/AwX6/wQG+P8PDvP/IST1/zxF9v9Zafb/hqX1/67Y9/+77fn/ue75/7bv+f+27vn/tu75/7bu
+        +f+27vn/tu75/7bu+f+27vn/tu75/7bu+f+27vn/tu75/7bu+f+27vn/tu75/7bu+f+27vn/tu75/7bu
+        +f+27vn/tu75/7bu+f+27vn/t+75/7Xv+f+27fj/wvD6/8ry+v/R9vv/0vb7/9L2/P/S9vz/0vb8/9T2
+        /P/U9vz/1Pb8/9X3/f/V9/3/1ff9/9X2/f/U9/v/xsnJVP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AKnL0MC27vn/tu75/7bu
+        +f+37/r/uO/5/7nw+f+47/n/uO75/7ju+f+77/r/u+76/7ru+v+67vr/uu76/7ru+f+78Pr/u/D6/7zw
+        +v+98Pr/vfD6/73w+v++8fv/vvH7/77x+v+/8fn/wPH5/8Dx+f/B8vr/wfL7/8Dy/P+/8fv/vO/6/7vu
+        +f+67vn/ue/5/7nu+v+57vr/ue76/7nv+v+57/r/ue/6/7nv+v+57/r/ue/6/7nv+v+57/r/ue/6/7nv
+        +v+57/r/ue/6/7nv+v+57/r/ue/6/7nv+v+57/r/ue/6/7nv+v+57/r/ue/6/7nv+v+57vn/uO/5/7ju
+        +f/G8fr/0PT6/9H1+//S9v3/0vb8/9L2/P/S9vz/1Pb8/9P1+//T9fv/1ff9/9X3/f/V9/3/1Pb8/9Hp
+        7OPy8vIN////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8AqsLGqLXt+P+27vn/tu75/7bu+f+37/n/ufD5/7nw+f+47vj/uO75/7ju
+        +f+57/r/ue76/7ru+v+67vr/uu75/7rv+f+68Pr/u/D6/7zw+v+98Pr/vfD6/73w+v++8fv/vvH6/7/x
+        +f++8fj/vvH4/77x+P++8Pn/vfD6/7zw+v+77/r/u+/6/7rv+v+68Pr/uu/6/7vv+v+87/r/vPD6/7zw
+        +v+88Pr/vPD6/7zw+v+88Pr/vPD6/7zw+v+88Pr/vPD6/7zw+v+88Pr/vPD6/7zw+v+88Pr/vPD6/7zw
+        +v+88Pr/vPD6/7zw+v+88Pr/vPD6/7zw+v+88Pr/vPD6/8fy+v/R9Pr/0fX7/9H1/P/S9vz/0vb8/9L2
+        /P/U9vz/1Pb8/9T2/P/V9/3/1ff9/9X3/f/U9vz/vsjJo////wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wCrvsGQte34/Lbu
+        +f+27vn/te75/7bu+f+38Pn/ufD5/7jv+P+47vj/t+34/7ju+f+57vr/ue76/7ru+v+67vn/ue/5/7nw
+        +f+78Pr/u/D6/73w+v+98Pr/vfD6/77x+/++8fr/v/H5/73x+P+98fj/vfH4/73x+P++8Pn/wPH6/7/w
+        +f++8Pn/vvD5/77w+f+/8Pn/vvD5/73x+f+/8Pj/v/D4/7/w+P+/8Pj/v/D4/7/w+P+/8Pj/v/D4/7/w
+        +P+/8Pj/v/D4/7/w+P+/8Pj/v/D4/7/w+P+/8Pj/v/D4/7/w+P+/8Pj/v/D4/7/w+P+/8Pj/v/D5/7/w
+        +v+/8Pr/xfH7/87z/P/R9fv/0fX6/9L2/P/S9vz/0vb8/9T2/P/U9vz/1Pb8/9X3/f/V9/3/1ff9/9X2
+        /PvV1tY1////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////ALbAwmmy4Orotu74/7Xu+f+27vn/tu75/7fv+v+57vr/ue76/7ju
+        +f+27fn/tu75/7nv+f+47/n/ue/5/7vv+v++8Pr/wfD5/8Py+v/F8vr/xPP7/8Tz+//E8/v/xfP7/8Xz
+        +//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz
+        +//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz
+        +//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//F8/v/xfP7/8Xz+//E8vr/yPP6/9L1/P/S9fv/0fX7/9H1
+        +//S9vz/0vb8/9L2/P/T9vz/1fb7/9L1/P/Q7vTxuMHDhv///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AvcTFWqzX
+        3dm27vj/te74/7bu+f+27vn/tu75/7Tv+f+27vn/uO/4/7rt+P+77vj/v/D5/8Lx+v/H8vv/yfL7/8jy
+        +//I8/v/yPL7/8ny+//I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz
+        +v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz
+        +v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz+v/I8/r/yPP6/8jz
+        +v/I8/r/yPP6/8fz+v/I8/r/0PX8/9H1+//R9fv/0fX7/9L2/P/R9vz/0vb8/9L2/P/R9vv/2fT8/7bE
+        xp3h4eIi////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wC8xMVaqdfd2bbu+P+17/j/tu75/7bu+f+27vn/ue/5/8Dw
+        +f/E8fn/yPT7/8rz/P/M9Pv/zPT7/8zz+//M9Pz/zPT7/8z0+v/L9fz/y/T8/8v1+//L9fv/y/X7/830
+        /P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zfT8/830
+        /P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zfT8/830
+        /P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zfT8/830/P/N9Pz/zPT7/8v0+//N9Pv/z/b7/9H1
+        +//R9fv/0fX7/9H3/P/R9vz/0vb8/9b1/P/P9/323N3dKf///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AL3E
+        xVqs1d3auOz5/7fv9/++8Pn/wvH5/8r0+//N9Pz/zfT8/871/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1
+        /f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1
+        /f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1
+        /f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1/f/P9f3/z/X9/8/1
+        /f/O9P3/zPX9/8z1/P/O9fz/zfX9/871/f/P9P3/z/T8/9H0/P/U9Pz/1/X7/8/1+v/P9vv8vs3QsN3e
+        3ij///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A6OjoGdTV1Ti7x8mjwdfby9P2/PjU9f3/1PT9/9P1/P/U9fz/1fX8/9L2/P/S9vz/0vb8/9P2
+        /P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2
+        /P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2
+        /P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2
+        /P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P2/P/T9vz/0/b8/9P1/P/S9fz/0vb8/8/1+//Q9fv82fX79LzL
+        zrW6wsN7ycvMTP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AOvr6xbGyclUucHDhb7Nz7PW9vv41fb8/9X2+//W9fr/1vb7/9b2
+        /f/U9/3/1fb8/9T3/P/W9v3/1vb9/9b2/f/Y9v7/1/f9/9f3/f/X9/3/1ff9/9X3/f/V9/3/1ff9/9X3
+        /f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3
+        /f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3
+        /f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3/f/V9/3/1ff9/9X3
+        /f/V9/36zunt5cDMzrK8wsJ10dPTPNna2i7///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A8vLyDbzCw4O/zc+z1/f8+Nn3
+        /P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3
+        /P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3
+        /P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3/P/Z9/z/2ff8/9n3
+        /P/Z9/z/2ff8/9r3/P/Z9/z/2ff8/9v2/P/Y9/z/2ff8/9n3/P/Z9/z/2vf8/9j3/P/X9/z/2Pj8/9j3
+        +//Y9vv/1/b7/9X2/P/Y9v39zOLm3LzMz7LAxcZj1NXWNuLi4iH5+fkG////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wDV1tY22fj7/9r3+//d+Pz/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4
+        /f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4
+        /f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4
+        /f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/2/j9/9v4/f/b+P3/3Pj9/9r4
+        /f/a9/3/2/f+/9v3/v/Z+P3/3Pf+/9/2/v/Z9/381vf89rrIyaO9w8Nz1dXWNtbX1zT///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AM/Q0ELh+v3/4fr+/+H5
+        /v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6
+        /v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6
+        /v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6/v/h+v7/4fr+/+H6
+        /v/h+v7/4fr+/+H6/v/k+f7/3/n9/dz4/PjG1NfEu8LDg8HFxWPQ0tI9////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8AvcLDd+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///4/v//+b6///l+v//5fz+/+X8
+        /v/k+/7/4/v//+X7///m+/7/5Pr9/+L5/f/j+v3/4/r+/+L4/frX6u3jvsnJo7rCw3bJzMxM5+joGv//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDAz9Cz5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///4vv//+T6///l+/7/5fv+/+X7/v/m+v7/4fv//9/7/v/e8fTty9rbzL/I
+        yaO+w8Nz4uLiIfn5+Qb///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AMXN0Lbl+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X6///l+v7/4/r9/+T4
+        /v/i+f790OXn3MPR07y7w8SDx8rKUfLy8g3///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A2+zu5OT7
+        ///l+///5/v//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///k+///5fv//+T7///k/P7/4vv//+T6///l+v//5fr//+X6///k+f7/4/n+/+L6
+        /f/h+vz61e/y6cLT1b/AxcZj3t7eJ////wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wDEz8+z5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+b7///l+///5fv//+T8
+        /v/j+/7/5fv+/+b6///k+v//4Pr9+tPv8OjA0tS8wcbGYt7e3if///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AMjK
+        ylPk+v3+5Pr+/+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5vv//+L7/v/j+v3/5Pn9/+P5/vrU6u3kvs7PssbJylPd3t4o////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////ANnq7ejk+v3/4/z//+X7///l+///5fv//+X7
+        ///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///l+///5fv//+X7///j+v7/3vj898nZ
+        3MrAxcVj3d7eKP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A8vLyDcDDxG3g+/7/5/r//+b7/v/l+/7/5fv+/+X7/v/k+v//5Pr//+X6///k+v//4fv+/Njx
+        8u28xcWSxsrKU+Li4iH5+fkG////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A+fn5BsHExXLn+/z77Pv9/+77
+        /v/s+v3/6Pr9/+H6/f/e+vz7yNXXwr3Cw4PV1tY17e3tE////wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AMPFxYLd5Oje5/n9++D4/PfI1dfAwMPEa9DS0j3///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AOzs
+        7BTa2tou8/PzDP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>毕业论文格式优化软件</value>
+  </data>
+  <data name="&gt;&gt;dotNetBarManager1.Name" xml:space="preserve">
+    <value>dotNetBarManager1</value>
+  </data>
+  <data name="&gt;&gt;dotNetBarManager1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DotNetBarManager, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;comboItem1.Name" xml:space="preserve">
+    <value>comboItem1</value>
+  </data>
+  <data name="&gt;&gt;comboItem1.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;comboItem2.Name" xml:space="preserve">
+    <value>comboItem2</value>
+  </data>
+  <data name="&gt;&gt;comboItem2.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;复制ToolStripMenuItem.Name" xml:space="preserve">
+    <value>复制ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;复制ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;粘贴ToolStripMenuItem.Name" xml:space="preserve">
+    <value>粘贴ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;粘贴ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;剪切ToolStripMenuItem.Name" xml:space="preserve">
+    <value>剪切ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;剪切ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;全选ToolStripMenuItem.Name" xml:space="preserve">
+    <value>全选ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;全选ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;清空ToolStripMenuItem.Name" xml:space="preserve">
+    <value>清空ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;清空ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;node1.Name" xml:space="preserve">
+    <value>node1</value>
+  </data>
+  <data name="&gt;&gt;node1.Type" xml:space="preserve">
+    <value>DevComponents.AdvTree.Node, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;nodeConnector4.Name" xml:space="preserve">
+    <value>nodeConnector4</value>
+  </data>
+  <data name="&gt;&gt;nodeConnector4.Type" xml:space="preserve">
+    <value>DevComponents.AdvTree.NodeConnector, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;elementStyle1.Name" xml:space="preserve">
+    <value>elementStyle1</value>
+  </data>
+  <data name="&gt;&gt;elementStyle1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ElementStyle, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;论文信息.Name" xml:space="preserve">
+    <value>论文信息</value>
+  </data>
+  <data name="&gt;&gt;论文信息.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockContainerItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;目录.Name" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="&gt;&gt;目录.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockContainerItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem1.Name" xml:space="preserve">
+    <value>buttonItem1</value>
+  </data>
+  <data name="&gt;&gt;buttonItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem2.Name" xml:space="preserve">
+    <value>buttonItem2</value>
+  </data>
+  <data name="&gt;&gt;buttonItem2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem23.Name" xml:space="preserve">
+    <value>buttonItem23</value>
+  </data>
+  <data name="&gt;&gt;buttonItem23.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem3.Name" xml:space="preserve">
+    <value>buttonItem3</value>
+  </data>
+  <data name="&gt;&gt;buttonItem3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem6.Name" xml:space="preserve">
+    <value>buttonItem6</value>
+  </data>
+  <data name="&gt;&gt;buttonItem6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem28.Name" xml:space="preserve">
+    <value>buttonItem28</value>
+  </data>
+  <data name="&gt;&gt;buttonItem28.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem10.Name" xml:space="preserve">
+    <value>buttonItem10</value>
+  </data>
+  <data name="&gt;&gt;buttonItem10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem11.Name" xml:space="preserve">
+    <value>buttonItem11</value>
+  </data>
+  <data name="&gt;&gt;buttonItem11.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem9.Name" xml:space="preserve">
+    <value>buttonItem9</value>
+  </data>
+  <data name="&gt;&gt;buttonItem9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem22.Name" xml:space="preserve">
+    <value>buttonItem22</value>
+  </data>
+  <data name="&gt;&gt;buttonItem22.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem29.Name" xml:space="preserve">
+    <value>buttonItem29</value>
+  </data>
+  <data name="&gt;&gt;buttonItem29.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem26.Name" xml:space="preserve">
+    <value>buttonItem26</value>
+  </data>
+  <data name="&gt;&gt;buttonItem26.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem27.Name" xml:space="preserve">
+    <value>buttonItem27</value>
+  </data>
+  <data name="&gt;&gt;buttonItem27.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem8.Name" xml:space="preserve">
+    <value>buttonItem8</value>
+  </data>
+  <data name="&gt;&gt;buttonItem8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem16.Name" xml:space="preserve">
+    <value>buttonItem16</value>
+  </data>
+  <data name="&gt;&gt;buttonItem16.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem14.Name" xml:space="preserve">
+    <value>buttonItem14</value>
+  </data>
+  <data name="&gt;&gt;buttonItem14.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem4.Name" xml:space="preserve">
+    <value>buttonItem4</value>
+  </data>
+  <data name="&gt;&gt;buttonItem4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem15.Name" xml:space="preserve">
+    <value>buttonItem15</value>
+  </data>
+  <data name="&gt;&gt;buttonItem15.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem19.Name" xml:space="preserve">
+    <value>buttonItem19</value>
+  </data>
+  <data name="&gt;&gt;buttonItem19.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;help.Name" xml:space="preserve">
+    <value>help</value>
+  </data>
+  <data name="&gt;&gt;help.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem17.Name" xml:space="preserve">
+    <value>buttonItem17</value>
+  </data>
+  <data name="&gt;&gt;buttonItem17.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem18.Name" xml:space="preserve">
+    <value>buttonItem18</value>
+  </data>
+  <data name="&gt;&gt;buttonItem18.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;about.Name" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="&gt;&gt;about.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem20.Name" xml:space="preserve">
+    <value>buttonItem20</value>
+  </data>
+  <data name="&gt;&gt;buttonItem20.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem21.Name" xml:space="preserve">
+    <value>buttonItem21</value>
+  </data>
+  <data name="&gt;&gt;buttonItem21.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelItem7.Name" xml:space="preserve">
+    <value>labelItem7</value>
+  </data>
+  <data name="&gt;&gt;labelItem7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelItem1.Name" xml:space="preserve">
+    <value>labelItem1</value>
+  </data>
+  <data name="&gt;&gt;labelItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelItem2.Name" xml:space="preserve">
+    <value>labelItem2</value>
+  </data>
+  <data name="&gt;&gt;labelItem2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;progressBarItem1.Name" xml:space="preserve">
+    <value>progressBarItem1</value>
+  </data>
+  <data name="&gt;&gt;progressBarItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ProgressBarItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem5.Name" xml:space="preserve">
+    <value>buttonItem5</value>
+  </data>
+  <data name="&gt;&gt;buttonItem5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem7.Name" xml:space="preserve">
+    <value>buttonItem7</value>
+  </data>
+  <data name="&gt;&gt;buttonItem7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem12.Name" xml:space="preserve">
+    <value>buttonItem12</value>
+  </data>
+  <data name="&gt;&gt;buttonItem12.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem13.Name" xml:space="preserve">
+    <value>buttonItem13</value>
+  </data>
+  <data name="&gt;&gt;buttonItem13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem24.Name" xml:space="preserve">
+    <value>buttonItem24</value>
+  </data>
+  <data name="&gt;&gt;buttonItem24.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonItem25.Name" xml:space="preserve">
+    <value>buttonItem25</value>
+  </data>
+  <data name="&gt;&gt;buttonItem25.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelItem3.Name" xml:space="preserve">
+    <value>labelItem3</value>
+  </data>
+  <data name="&gt;&gt;labelItem3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelItem4.Name" xml:space="preserve">
+    <value>labelItem4</value>
+  </data>
+  <data name="&gt;&gt;labelItem4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;toolTip2.Name" xml:space="preserve">
+    <value>toolTip2</value>
+  </data>
+  <data name="&gt;&gt;toolTip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dockContainerItem1.Name" xml:space="preserve">
+    <value>dockContainerItem1</value>
+  </data>
+  <data name="&gt;&gt;dockContainerItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockContainerItem, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;elementStyle4.Name" xml:space="preserve">
+    <value>elementStyle4</value>
+  </data>
+  <data name="&gt;&gt;elementStyle4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ElementStyle, DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>183, 17</value>
+  </metadata>
+  <metadata name="toolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>284, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>385, 17</value>
+  </metadata>
+  <data name="saveFileDialog1.Filter" xml:space="preserve">
+    <value>word文档|*.doc</value>
+  </data>
+  <data name="dockContainerItem1.Text" xml:space="preserve">
+    <value>dockContainerItem1</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <data name="openFileDialog1.Filter" xml:space="preserve">
+    <value>word文档|*.doc|word文档docx|*.docx</value>
+  </data>
+</root>
